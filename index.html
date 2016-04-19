@@ -15,17 +15,51 @@
 <!-- Prototype styles -->
 <link rel="stylesheet" href="http://rac.berkeley.edu/lib/css/nav.css">
 
-<!-- Site Specific CSS -->
-<link rel="stylesheet" href="http://rac.berkeley.edu/lib/css/site.css">
-
 <style>
+
+ /* ----- */
+ /* for the berkeley logo */
+ header#site-header.subbrand .two-line-logo .b-wordmark {
+     width: 185px;
+     height: 70px;
+     margin: 15px 10px 10px 0px;
+     background-image: url("berkeley_wordmark_blue_175x70.svg"), none;
+     background-repeat: no-repeat;
+     background-position: left center;
+     border-right: solid 1px #003056;
+     padding-right: 10px;
+ }
+
+ header#site-header.subbrand .b-wordmark, header#site-header.subbrand .dept-title {
+     display: inline-block;
+     font-size: 40px;
+     line-height: 40px;
+ }
+ /* ----- */
+
+ /* for the text right of the logo */
+ header#site-header.subbrand .two-line-logo .dept-title {
+     font-size: 30px;
+     line-height: 30px;
+ }
+
+ header#site-header.subbrand .dept-title {
+     font-family: 'UCBerkeleyOSDemi', 'Minion Pro', 'Times New Roman', times, serif;
+     color: #c4820e;
+     vertical-align: top;
+     margin-top: 20px;
+ }
+ /* ----- */
+
+ /* get rid of blue top border */
 header#site-header {
-  border-top: 0px;
+     border-top: 0px;
 }
 body {
   background-color: white;
   font-family: 'Open Sans', sans-serif;
 }
+ /* ----- */
 
 /* for the search bar */
 .btn-default {
