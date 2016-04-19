@@ -21,15 +21,15 @@
  /* ----- */
  /* for the berkeley logo */
  header#site-header.subbrand .two-line-logo .b-wordmark {
-     width: 185px;
-     height: 70px;
-     margin: 15px 10px 10px 0px;
+     width: 130px;
+     height: 130px;
+     margin: 15px 0px 10px 0px;
      /* background-image: url("berkeley_wordmark_blue_175x70.svg"), none; */
      background-image: url("telos_logo.png"), none;
      background-repeat: no-repeat;
      background-position: left center;
-     border-right: solid 1px #003056;
-     padding-right: 10px;
+     /* border-right: solid 1px #003056; */
+     /* padding-right: 10px; */
  }
 
  header#site-header.subbrand .b-wordmark, header#site-header.subbrand .dept-title {
@@ -50,7 +50,7 @@
      font-family: 'Droid Sans', sans-serif;
      /* color: #c4820e; */
      vertical-align: top;
-     margin-top: 20px;
+     margin-top: 35px;
  }
  /* ----- */
 
@@ -74,18 +74,19 @@ div form#navbar-search.navbar-form {
     margin-top: 20px;
 }
  /* ----- */
-
+ header#site-header .navbar.navbar-default {
+     /* background-color: #c4820e; */
+     background-color: rgb(245,181,74);
+ }
 
 </style>
 </head>
 <body class="home">
 
 <header id="site-header" class="subbrand">
+        <!-- <header> -->
   <div class="navbar navbar-default navbar-static-top yamm">
     <div class="container">
-
-<style>
-</style>
       <div>
         <form id="navbar-search" class="navbar-form navbar-right" method="get" action="/search/index.html" role="search">
           <div class="form-group">
@@ -111,26 +112,17 @@ div form#navbar-search.navbar-form {
           <ul class="nav navbar-nav">
 
             <li id="about">
-              <a href="#" class="dropdown-toggle" role="button" aria-expanded="false">About RAC</a>
+              <a href="#" class="dropdown-toggle" role="button" aria-expanded="false">About</a>
             </li>
             <li class="dropdown yamm-fw" id="ACUC">
-              <a href="http://acuc.berkeley.edu" class="dropdown-toggle" role="button" aria-expanded="false">ACUC</a>
+              <a href="http://acuc.berkeley.edu" class="dropdown-toggle" role="button" aria-expanded="false">Who we are</a>
             </li>
             <li class="dropdown yamm-fw" id="COI">
-              <a href="http://researchcoi.berkeley.edu" class="dropdown-toggle" role="button" aria-expanded="false">COI</a>
+              <a href="http://researchcoi.berkeley.edu" class="dropdown-toggle" role="button" aria-expanded="false">Projects</a>
             </li>  
             <li class="dropdown yamm-fw" id="CPHS">
-              <a href="http://cphs.berkeley.edu" class="dropdown-toggle" role="button" aria-expanded="false">CPHS</a>
+              <a href="http://cphs.berkeley.edu" class="dropdown-toggle" role="button" aria-expanded="false">Contacts</a>
             </li>          
-            <li class="dropdown yamm-fw" id="SPO">
-              <a href="http://spo.berkeley.edu" class="dropdown-toggle" role="button" aria-expanded="false">SPO</a>
-            </li>
-            <li id="phoebe">
-              <a href="#" class="dropdown-toggle" role="button" aria-expanded="false">Phoebe</a>
-            </li>
-            <li class="dropdown yamm-fw" id="SPO">
-              <a href="/racforum.html" class="dropdown-toggle" role="button" aria-expanded="false">RAC Forum</a>
-            </li>
 
           </ul>
         </nav>
@@ -139,3 +131,4 @@ div form#navbar-search.navbar-form {
     </div>
   </div>
 </header>
+</body>
