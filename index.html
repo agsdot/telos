@@ -4,6 +4,7 @@
 <title>Stanford | TELOS</title>
 <meta name="author" content="UC Berkeley">
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet'>
+<link href='https://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Source+Serif+Pro:400,600,700' rel='stylesheet'>
 <link rel="shortcut icon" href="http://rac.berkeley.edu/favicon.ico">
 
@@ -44,8 +45,9 @@
  }
 
  header#site-header.subbrand .dept-title {
-     font-family: 'UCBerkeleyOSDemi', 'Minion Pro', 'Times New Roman', times, serif;
-     color: #c4820e;
+     /* font-family: 'UCBerkeleyOSDemi', 'Minion Pro', 'Times New Roman', times, serif; */
+     font-family: 'Droid Sans', sans-serif;
+     /* color: #c4820e; */
      vertical-align: top;
      margin-top: 20px;
  }
@@ -67,6 +69,12 @@ body {
   background-color: transparent;
   border-color: #ccc;
 }
+div form#navbar-search.navbar-form {
+    margin-top: 20px;
+}
+ /* ----- */
+
+
 </style>
 </head>
 <body class="home">
@@ -75,15 +83,26 @@ body {
   <div class="navbar navbar-default navbar-static-top yamm">
     <div class="container">
 
+<style>
+</style>
+      <div>
+        <form id="navbar-search" class="navbar-form navbar-right" method="get" action="/search/index.html" role="search">
+          <div class="form-group">
+            <input class="form-control" type="search" aria-label="search term" placeholder="search" name="q">
+          </div>
+          <button class="btn btn-default" value="Search" aria-label="search" type="submit"> <span class="fa fa-search search"></span> </button>
+        </form>
+      </div>
       <div class="navbar-header two-line-logo">
-        <h1> <span class="b-wordmark" aria-hidden="true"></span> <span class="dept-title two-line-logo">Research Administration<br>
-          and Compliance</span> </h1>
-          <form id="navbar-search" class="navbar-form navbar-right" method="get" action="/search/index.html" role="search">
-            <div class="form-group">
-              <input class="form-control" type="search" aria-label="search term" placeholder="search" name="q">
-            </div>
-            <button class="btn btn-default" value="Search" aria-label="search" type="submit"> <span class="fa fa-search search"></span> </button>
-          </form>
+          <!-- <h1> <span class="b-wordmark" aria-hidden="true"></span> <span class="dept-title two-line-logo">Research Administration<br> -->
+          <!-- and Compliance</span> </h1> -->
+        <h1> <span class="b-wordmark" aria-hidden="true"></span>
+              <span class="dept-title two-line-logo">Technology for Equity in<br>
+                  Learning Opportunities
+                  <br>
+                  <small>at Stanford University</small>
+              </span>
+        </h1>
       </div>
       
       <div class="collapse navbar-collapse" id="main-nav">
