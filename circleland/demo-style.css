@@ -105,7 +105,7 @@ section {
 
 .color2-circle::after {
     /* background: #008C9E; */
-    background:rgb(35,51,51);
+    background:rgba(35,51,51,0.9);
 }
 
 .color3-circle::after {
