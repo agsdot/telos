@@ -15,7 +15,11 @@
 
 <!-- Prototype styles -->
 <!-- <link rel="stylesheet" href="http://rac.berkeley.edu/lib/css/nav.css"> -->
+<!-- styling for the search form and the navigation menu -->
 <link rel="stylesheet" href="nav.css">
+
+<!-- styling for the bootstrap image slider -->
+<link rel="stylesheet" href="bootstrap-image-slider.css">
 
 <style>
 
@@ -175,13 +179,87 @@ div form#navbar-search.navbar-form {
 </header>
 
 <div id="content">
-  <div class="container">
-    <img src="image2.png" class="img-responsive">
+  <!-- <div class="container"> -->
+  <!-- <img src="image2.png" class="img-responsive"> -->
+  <!-- </div> -->
+
+  <!-- <div class="container"> -->
+  <!-- <p>Mission</p> -->
+  <!-- <p>Lorem Ipsum</p> -->
+  <!-- </div> -->
+
+  <!-- stop the carousel from cycling , data-interval="false" -->
+  <div id='carousel-custom' class='carousel slide' data-ride='carousel' data-interval="false" >
+      <div class='carousel-outer'>
+          <!-- Wrapper for slides -->
+          <div class='carousel-inner'>
+              <div class='item'>
+                    <img src='image2.png' alt='' class="full-width" />
+                    <div class="carousel-caption">
+                        <div class="col-md-4 col-md-offset-8 text-left image-slider">
+                            <h4 class="one-line">TELOS 2016 spring seminar</h4>
+                            <h2><span class="one-line" >Education's Digital Future:</span>
+                                <span class="one-line" >Equity by Design</span></h2>
+                            <a href="#" class="image-slider-url">Go to ALPHAwebsite</a>
+                            <style>
+                            </style>
+                        </div>
+                    </div>
+              </div>
+              <div class='item active'>
+                    <img src='image2.png' alt='' class="full-width" />
+                    <div class="carousel-caption">
+                        <div class="col-md-4 col-md-offset-8 text-left image-slider">
+                            <h4 class="one-line">TELOS 2016 spring seminar</h4>
+                            <h2><span class="one-line" >Education's Digital Future:</span>
+                                <span class="one-line" >Equity by Design</span></h2>
+                            <a href="#" class="image-slider-url">Go to BRAVOwebsite</a>
+                            <style>
+                            </style>
+                        </div>
+                    </div>
+              </div>
+              <div class='item'>
+                    <img src='image2.png' alt='' class="full-width" />
+                    <div class="carousel-caption">
+                        <div class="col-md-4 col-md-offset-8 text-left image-slider">
+                            <h4 class="one-line">TELOS 2016 spring seminar</h4>
+                            <h2><span class="one-line" >Education's Digital Future:</span>
+                                <span class="one-line" >Equity by Design</span></h2>
+                            <a href="#" class="image-slider-url">Go to CHARLIEwebsite</a>
+                            <style>
+                            </style>
+                        </div>
+                    </div>
+              </div>
+              <div class='item'>
+                    <img src='image2.png' alt='' class="full-width" />
+                    <div class="carousel-caption">
+                        <div class="col-md-4 col-md-offset-8 text-left image-slider">
+                            <h4 class="one-line">TELOS 2016 spring seminar</h4>
+                            <h2><span class="one-line" >Education's Digital Future:</span>
+                                <span class="one-line" >Equity by Design</span></h2>
+                            <a href="#" class="image-slider-url">Go to DELTAwebsite</a>
+                            <style>
+                            </style>
+                        </div>
+                    </div>
+              </div>
+          </div>
+      </div>
+
+      <!-- Indicators -->
+      <ol class='carousel-indicators'>
+          <li data-target='#carousel-custom' data-slide-to='0'></li>
+          <li data-target='#carousel-custom' data-slide-to='1' class='active'></li>
+          <li data-target='#carousel-custom' data-slide-to='2'></li>
+          <li data-target='#carousel-custom' data-slide-to='3'></li>
+      </ol>
   </div>
-  <div class="container">
-      <p>Mission</p>
-      <p>Lorem Ipsum</p>
-  </div>
+
+
+
+
 </div>
 
 
