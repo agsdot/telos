@@ -141,15 +141,15 @@ div.navbar-header h1 {
 	height: 32px;
 	
 	}
-	.navbar-form .form-control:focus {
-		border: none;
-		-webkit-box-shadow: none;
-		box-shadow: none;
-	background-color: #fff;
-	}
-	header#site-header #primary-nav .navbar-nav {
-		float: right;
-	}
+	/* .navbar-form .form-control:focus { */
+	/* 	border: none; */
+	/* 	-webkit-box-shadow: none; */
+	/* 	box-shadow: none; */
+	/* background-color: #fff; */
+	/* } */
+	/* header#site-header #primary-nav .navbar-nav { */
+	/* 	float: right; */
+	/* } */
 	header#site-header #primary-nav ul.navbar-nav>li>a:hover, 
 	header#site-header #primary-nav ul.navbar-nav>li>a:focus,
 	footer#site-footer .nav>li>a:hover,
