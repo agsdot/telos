@@ -3,80 +3,82 @@
 <head>
     <title>Untitled Document</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.css" rel="stylesheet" />
+ <style>
+/* https://stackoverflow.com/questions/17704539/css-getting-text-in-one-line-rather-than-two */
+.one-line {
+    clear: both;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+}
+   #carousel-custom {
+       margin: 20px auto;
+       width: 1120px;
+   }
+   #carousel-custom .carousel-outer {
+       position: relative;
+   }
 
-    <style>
+/* http://stackoverflow.com/a/31512908 */
+/* https://stackoverflow.com/questions/21525129/how-to-make-contents-inside-carousel-vertically-center */
+.full-width {
+    width: 100%;
+}
 
-        /* https://stackoverflow.com/questions/17704539/css-getting-text-in-one-line-rather-than-two */
-     .one-line {
-         clear: both;
-         display: inline-block;
-         overflow: hidden;
-         white-space: nowrap;
-     }
-        #carousel-custom {
-            margin: 20px auto;
-            /* width: 400px; */
-            width: 1120px;
-        }
-     /* #carousel-custom .carousel-indicators { */
-     /* margin: 10px 0 0; */
-     /* overflow: auto; */
-     /* position: static; */
-     text-align: left;
-     /* text-align: center; */
-     /* white-space: nowrap; */
-     /* width: 100%; */
-     /* } */
-     /* #carousel-custom .carousel-indicators li { */
-     /* background-color: transparent; */
-     /* -webkit-border-radius: 0; */
-     /* border-radius: 0; */
-     /* display: inline-block; */
-     /* height: auto; */
-     /* margin: 0 !important; */
-     /* width: auto; */
-     /* } */
-     /* #carousel-custom .carousel-indicators li img { */
-     /* display: block; */
-     /* border: red; */
-     /* } */
-        #carousel-custom .carousel-outer {
-            position: relative;
-        }
-
-     /* http://stackoverflow.com/a/31512908 */
-     /* https://stackoverflow.com/questions/21525129/how-to-make-contents-inside-carousel-vertically-center */
-     .full-width {
-         width: 100%;
-     }
-
-     .carousel-caption {
-         position: absolute;
-         top: 0;
-         display: -webkit-box;
-         display: -moz-box;
-         display: -ms-flexbox;
-         display: -webkit-flex;
-         display: flex;
-         -webkit-box-align: center;
-         -moz-box-align: center;
-         -ms-flex-align: center;
-         -webkit-align-items: center;
-         align-items: center;
-         height: 100%;
-     }
+.carousel-caption {
+    position: absolute;
+    top: 0;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    height: 100%;
+}
      /* --- */
 
-                               a.image-slider-url {
-                                   color: maroon;
-                               }
-                               a.image-slider-url.hover {
-                                   color: maroon;
-                               }
-                               .image-slider {
-                                   color:rgba(35,52,54,1)
-                               }
-    </style>
+a.image-slider-url {
+    color: maroon;
+}
+a.image-slider-url.hover {
+    color: maroon;
+}
+.image-slider {
+    color:rgba(35,52,54,1)
+}
+
+/* from a codepen on giving numbers to the bootstrap dots then I adapted it */
+.carousel-indicators li {
+      text-indent: 0;
+      margin: 0 2px;
+      width: 60px;
+      height: 10px;
+      border: none;
+      border-radius: 0;
+      line-height: 30px;
+      color: #fff;
+      background-color: rgb(220, 217, 208);
+}
+.carousel-indicators li.active, .carousel-indicators li.hover{
+  margin: 0 2px;
+  width: 60px;
+  height: 10px;
+    background-color: rgb(144, 16, 41);
+}
+.carousel-indicators {
+    bottom:-50px;
+}
+
+.carousel-inner {
+    margin-bottom:50px;
+}
+
+</style>
 </head>
 <body>
 
@@ -99,7 +101,6 @@
                 </div>
                 <div class='item active'>
                       <img src='image2.png' alt='' class="full-width" />
-                      <!-- <img src='http://placekitten.com/g/1120/400' alt='' /> -->
                       <div class="carousel-caption">
                           <div class="col-md-4 col-md-offset-8 text-left image-slider">
                               <h4 class="one-line">TELOS 2016 spring seminar</h4>
@@ -113,7 +114,6 @@
                 </div>
                 <div class='item'>
                       <img src='image2.png' alt='' class="full-width" />
-                      <!-- <img src='http://placekitten.com/g/1120/400' alt='' /> -->
                       <div class="carousel-caption">
                           <div class="col-md-4 col-md-offset-8 text-left image-slider">
                               <h4 class="one-line">TELOS 2016 spring seminar</h4>
@@ -127,7 +127,6 @@
                 </div>
                 <div class='item'>
                       <img src='image2.png' alt='' class="full-width" />
-                      <!-- <img src='http://placekitten.com/g/1120/400' alt='' /> -->
                       <div class="carousel-caption">
                           <div class="col-md-4 col-md-offset-8 text-left image-slider">
                               <h4 class="one-line">TELOS 2016 spring seminar</h4>
@@ -144,10 +143,6 @@
 
         <!-- Indicators -->
         <ol class='carousel-indicators'>
-            <!-- <li data-target='#carousel-custom' data-slide-to='0' class='active'><img src='http://placehold.it/60x10&text=slide1' alt='' /></li> -->
-            <!-- <li data-target='#carousel-custom' data-slide-to='1'><img src='http://placehold.it/60x10&text=slide2' alt='' /></li> -->
-            <!-- <li data-target='#carousel-custom' data-slide-to='2'><img src='http://placehold.it/60x10&text=slide3' alt='' /></li> -->
-            <!-- <li data-target='#carousel-custom' data-slide-to='3'><img src='http://placehold.it/60x10&text=slide4' alt='' /></li> -->
             <li data-target='#carousel-custom' data-slide-to='0'></li>
             <li data-target='#carousel-custom' data-slide-to='1' class='active'></li>
             <li data-target='#carousel-custom' data-slide-to='2'></li>
@@ -156,44 +151,11 @@
     </div>
 
 <style>
-.carousel-indicators li {
-      text-indent: 0;
-      margin: 0 2px;
-      width: 60px;
-      height: 10px;
-      border: none;
-      border-radius: 0;
-      line-height: 30px;
-      color: #fff;
-      background-color: rgb(220, 217, 208);
-}
-.carousel-indicators li.active, .carousel-indicators li.hover{
-  margin: 0 2px;
-  width: 60px;
-  height: 10px;
-    /* background-color: #337ab7; */
-    background-color: rgb(144, 16, 41);
-}
-.carousel-indicators {
-    bottom:-50px;
-}
-
-.carousel-inner {
-    margin-bottom:50px;
-}
-
 
 
 </style>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.js'></script>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.js'></script>
-
-    <!-- https://gist.github.com/talmand/9695563 -->
-    <!-- google : bootstrap carousel indicator position -->
-    <!-- https://www.google.com/search?q=change+jquery+carousel+buttons&oq=change+jquery+carousel+buttons&aqs=chrome..69i57j69i65l2j69i60j69i61l2.6246j0j1&sourceid=chrome&ie=UTF-8#q=bootstrap+carousel+indicator+position -->
-    <!-- 1125 397 -->
-    <!-- 1120 400 -->
-    <!-- https://stackoverflow.com/questions/31272176/change-to-hexagon-bootstrap-indicator -->
 
 </body>
 </html>
