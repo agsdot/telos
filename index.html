@@ -1,89 +1,90 @@
 <!DOCTYPE html>
 <html lang="en" class="no-js">
+
 <head>
-<title>Stanford | TELOS</title>
-<meta name="author" content="UC Berkeley">
-<link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet'>
-<link href='https://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Source+Serif+Pro:400,600,700' rel='stylesheet'>
-<link rel="shortcut icon" href="http://rac.berkeley.edu/favicon.ico">
+    <title>Stanford | TELOS</title>
+    <meta name="author" content="UC Berkeley">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Source+Serif+Pro:400,600,700' rel='stylesheet'>
+    <link rel="shortcut icon" href="http://rac.berkeley.edu/favicon.ico">
 
     <!-- Le styles -->
-<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.css" rel="stylesheet" />
-<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.1/css/font-awesome.css" rel="stylesheet">
-<link href='https://fonts.googleapis.com/css?family=Courgette' rel='stylesheet' type='text/css'>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.1/css/font-awesome.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Courgette' rel='stylesheet' type='text/css'>
 
-<!-- Prototype styles -->
-<!-- <link rel="stylesheet" href="http://rac.berkeley.edu/lib/css/nav.css"> -->
-<!-- styling for the search form and the navigation menu -->
-<link rel="stylesheet" href="nav.css">
+    <!-- Prototype styles -->
+    <!-- <link rel="stylesheet" href="http://rac.berkeley.edu/lib/css/nav.css"> -->
+    <!-- styling for the search form and the navigation menu -->
+    <link rel="stylesheet" href="nav.css">
 
-<!-- styling for the bootstrap image slider -->
-<link rel="stylesheet" href="bootstrap-image-slider.css">
+    <!-- styling for the bootstrap image slider -->
+    <link rel="stylesheet" href="bootstrap-image-slider.css">
 
-<style>
+    <style>
+        /* ----- */
+        /* for the berkeley logo */
 
- /* ----- */
- /* for the berkeley logo */
- header#site-header.subbrand .two-line-logo .b-wordmark {
-     width: 130px;
-     height: 130px;
-     margin: 15px 0px 10px 0px;
-     /* background-image: url("berkeley_wordmark_blue_175x70.svg"), none; */
-     background-image: url("telos_logo.png"), none;
-     background-repeat: no-repeat;
-     background-position: left center;
-     /* border-right: solid 1px #003056; */
-     /* padding-right: 10px; */
- }
+        header#site-header.subbrand .two-line-logo .b-wordmark {
+            width: 130px;
+            height: 130px;
+            margin: 15px 0px 10px 0px;
+            /* background-image: url("berkeley_wordmark_blue_175x70.svg"), none; */
+            background-image: url("telos_logo.png"), none;
+            background-repeat: no-repeat;
+            background-position: left center;
+            /* border-right: solid 1px #003056; */
+            /* padding-right: 10px; */
+        }
 
- header#site-header.subbrand .b-wordmark, header#site-header.subbrand .dept-title {
-     display: inline-block;
-     font-size: 40px;
-     line-height: 40px;
- }
- /* ----- */
+        header#site-header.subbrand .b-wordmark,
+        header#site-header.subbrand .dept-title {
+            display: inline-block;
+            font-size: 40px;
+            line-height: 40px;
+        }
+        /* ----- */
+        /* for the text right of the logo */
 
- /* for the text right of the logo */
- header#site-header.subbrand .two-line-logo .dept-title {
-     font-size: 30px;
-     line-height: 30px;
- }
+        header#site-header.subbrand .two-line-logo .dept-title {
+            font-size: 30px;
+            line-height: 30px;
+        }
 
- header#site-header.subbrand .dept-title {
-     /* font-family: 'UCBerkeleyOSDemi', 'Minion Pro', 'Times New Roman', times, serif; */
-     font-family: 'Droid Sans', sans-serif;
-     /* color: #c4820e; */
-     vertical-align: top;
-     margin-top: 35px;
- }
- /* ----- */
+        header#site-header.subbrand .dept-title {
+            /* font-family: 'UCBerkeleyOSDemi', 'Minion Pro', 'Times New Roman', times, serif; */
+            font-family: 'Droid Sans', sans-serif;
+            /* color: #c4820e; */
+            vertical-align: top;
+            margin-top: 35px;
+        }
+        /* ----- */
+        /* get rid of blue top border */
 
- /* get rid of blue top border */
-header#site-header {
-     border-top: 0px;
-}
-body {
-  background-color: white;
-  font-family: 'Open Sans', sans-serif;
-}
- /* ----- */
+        header#site-header {
+            border-top: 0px;
+        }
 
-/* for the search bar */
-.btn-default {
-  color: #333;
-  background-color: transparent;
-  border-color: #ccc;
-}
-div form#navbar-search.navbar-form {
-    margin-top: 20px;
-}
+        body {
+            background-color: white;
+            font-family: 'Open Sans', sans-serif;
+        }
+        /* ----- */
+        /* for the search bar */
 
- /* ----- */
- /* for the search bar magnifying glass */
+        .btn-default {
+            color: #333;
+            background-color: transparent;
+            border-color: #ccc;
+        }
 
-
- /*
+        div form#navbar-search.navbar-form {
+            margin-top: 20px;
+        }
+        /* ----- */
+        /* for the search bar magnifying glass */
+        /*
     header#site-header .navbar-form .btn {
 	  display: none;
 	  border: none;
@@ -108,164 +109,168 @@ div form#navbar-search.navbar-form {
     }
 
   */
+        /* ----- */
 
- /* ----- */
- header#site-header .navbar.navbar-default {
-     /* background-color: #c4820e; */
-     background-color: rgb(245,181,74);
- }
-
-</style>
+        header#site-header .navbar.navbar-default {
+            /* background-color: #c4820e; */
+            background-color: rgb(245, 181, 74);
+        }
+    </style>
 </head>
+
 <body class="home">
 
-<header id="site-header" class="subbrand">
+    <header id="site-header" class="subbrand">
         <!-- <header> -->
-  <div class="navbar navbar-default navbar-static-top yamm">
-    <div class="container">
-      <div>
-        <form id="navbar-search" class="navbar-form navbar-right" method="get" action="/search/index.html" role="search">
-          <div class="form-group">
-            <input class="form-control" type="search" aria-label="search term" placeholder="search" name="q">
-          </div>
-          <button class="btn btn-default" value="Search" aria-label="search" type="submit"> <span class="fa fa-search search"></span> </button>
-        </form>
-      </div>
-      <div class="navbar-header two-line-logo">
-          <!-- <h1> <span class="b-wordmark" aria-hidden="true"></span> <span class="dept-title two-line-logo">Research Administration<br> -->
-          <!-- and Compliance</span> </h1> -->
-        <h1> <span class="b-wordmark" aria-hidden="true"></span>
+        <div class="navbar navbar-default navbar-static-top yamm">
+            <div class="container">
+                <div>
+                    <form id="navbar-search" class="navbar-form navbar-right" method="get" action="/search/index.html" role="search">
+                        <div class="form-group">
+                            <input class="form-control" type="search" aria-label="search term" placeholder="search" name="q">
+                        </div>
+                        <button class="btn btn-default" value="Search" aria-label="search" type="submit"> <span class="fa fa-search search"></span> </button>
+                    </form>
+                </div>
+                <div class="navbar-header two-line-logo">
+                    <!-- <h1> <span class="b-wordmark" aria-hidden="true"></span> <span class="dept-title two-line-logo">Research Administration<br> -->
+                    <!-- and Compliance</span> </h1> -->
+                    <h1> <span class="b-wordmark" aria-hidden="true"></span>
               <span class="dept-title two-line-logo">Technology for Equity in<br>
                   Learning Opportunities
                   <br>
                   <small>at Stanford University</small>
               </span>
         </h1>
-      </div>
+                </div>
 
-      <div class="collapse navbar-collapse" id="main-nav">
-        <nav id="primary-nav" role="navigation">
-          <ul class="nav navbar-nav">
+                <div class="collapse navbar-collapse" id="main-nav">
+                    <nav id="primary-nav" role="navigation">
+                        <ul class="nav navbar-nav">
 
-            <li id="about">
-              <a href="#" class="dropdown-toggle" role="button" aria-expanded="false">About</a>
-            </li>
-            <li class="dropdown yamm-fw" id="ACUC">
-              <a href="http://acuc.berkeley.edu" class="dropdown-toggle" role="button" aria-expanded="false">Who we are</a>
-            </li>
-            <li class="dropdown yamm-fw" id="COI">
-              <a href="http://researchcoi.berkeley.edu" class="dropdown-toggle" role="button" aria-expanded="false">Projects</a>
-            </li>
-            <li class="dropdown yamm-fw" id="CPHS">
-              <a href="http://cphs.berkeley.edu" class="dropdown-toggle" role="button" aria-expanded="false">Contacts</a>
-            </li>
-            <style>
+                            <li id="about">
+                                <a href="#" class="dropdown-toggle" role="button" aria-expanded="false">About</a>
+                            </li>
+                            <li class="dropdown yamm-fw" id="ACUC">
+                                <a href="http://acuc.berkeley.edu" class="dropdown-toggle" role="button" aria-expanded="false">Who we are</a>
+                            </li>
+                            <li class="dropdown yamm-fw" id="COI">
+                                <a href="http://researchcoi.berkeley.edu" class="dropdown-toggle" role="button" aria-expanded="false">Projects</a>
+                            </li>
+                            <li class="dropdown yamm-fw" id="CPHS">
+                                <a href="http://cphs.berkeley.edu" class="dropdown-toggle" role="button" aria-expanded="false">Contacts</a>
+                            </li>
+                            <style>
+                                #TELOS-seminar > a {
+                                    color: white;
+                                }
+                            </style>
+                            <li class="dropdown yamm-fw pull-right" id="TELOS-seminar" style="background-color:rgba(35,52,54,1);">
+                                <a href="http://cphs.berkeley.edu" class="dropdown-toggle" role="button" aria-expanded="false" style="color:rgb(163, 183,187);">TELOS 2016 spring seminar</a>
 
-#TELOS-seminar > a {
-    color: white;
-}
-                </style>
-            <li class="dropdown yamm-fw pull-right" id="TELOS-seminar" style="background-color:rgba(35,52,54,1);">
-              <a href="http://cphs.berkeley.edu" class="dropdown-toggle" role="button" aria-expanded="false" style="color:rgb(163, 183,187);">TELOS 2016 spring seminar</a>
+                            </li>
 
-            </li>
+                        </ul>
+                    </nav>
+                </div>
 
-          </ul>
-        </nav>
-      </div>
+            </div>
+        </div>
+    </header>
+
+    <div id="content">
+        <!-- <div class="container"> -->
+        <!-- <img src="image2.png" class="img-responsive"> -->
+        <!-- </div> -->
+
+        <!-- <div class="container"> -->
+        <!-- <p>Mission</p> -->
+        <!-- <p>Lorem Ipsum</p> -->
+        <!-- </div> -->
+
+        <!-- stop the carousel from cycling , data-interval="false" -->
+        <div id='carousel-custom' class='carousel slide' data-ride='carousel' data-interval="false">
+            <div class='carousel-outer'>
+                <!-- Wrapper for slides -->
+                <div class='carousel-inner'>
+                    <div class='item'>
+                        <img src='image2.png' alt='' class="full-width" />
+                        <div class="carousel-caption">
+                            <div class="col-md-4 col-md-offset-8 text-left image-slider">
+                                <h4 class="one-line">TELOS 2016 spring seminar</h4>
+                                <h2><span class="one-line" >Education's Digital Future:</span>
+                                <span class="one-line" >Equity by Design</span></h2>
+                                <a href="#" class="image-slider-url">Go to ALPHAwebsite</a>
+                                <style>
+
+                                </style>
+                            </div>
+                        </div>
+                    </div>
+                    <div class='item active'>
+                        <img src='image2.png' alt='' class="full-width" />
+                        <div class="carousel-caption">
+                            <div class="col-md-4 col-md-offset-8 text-left image-slider">
+                                <h4 class="one-line">TELOS 2016 spring seminar</h4>
+                                <h2><span class="one-line" >Education's Digital Future:</span>
+                                <span class="one-line" >Equity by Design</span></h2>
+                                <a href="#" class="image-slider-url">Go to BRAVOwebsite</a>
+                                <style>
+
+                                </style>
+                            </div>
+                        </div>
+                    </div>
+                    <div class='item'>
+                        <img src='image2.png' alt='' class="full-width" />
+                        <div class="carousel-caption">
+                            <div class="col-md-4 col-md-offset-8 text-left image-slider">
+                                <h4 class="one-line">TELOS 2016 spring seminar</h4>
+                                <h2><span class="one-line" >Education's Digital Future:</span>
+                                <span class="one-line" >Equity by Design</span></h2>
+                                <a href="#" class="image-slider-url">Go to CHARLIEwebsite</a>
+                                <style>
+
+                                </style>
+                            </div>
+                        </div>
+                    </div>
+                    <div class='item'>
+                        <img src='image2.png' alt='' class="full-width" />
+                        <div class="carousel-caption">
+                            <div class="col-md-4 col-md-offset-8 text-left image-slider">
+                                <h4 class="one-line">TELOS 2016 spring seminar</h4>
+                                <h2><span class="one-line" >Education's Digital Future:</span>
+                                <span class="one-line" >Equity by Design</span></h2>
+                                <a href="#" class="image-slider-url">Go to DELTAwebsite</a>
+                                <style>
+
+                                </style>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Indicators -->
+            <ol class='carousel-indicators'>
+                <li data-target='#carousel-custom' data-slide-to='0'></li>
+                <li data-target='#carousel-custom' data-slide-to='1' class='active'></li>
+                <li data-target='#carousel-custom' data-slide-to='2'></li>
+                <li data-target='#carousel-custom' data-slide-to='3'></li>
+            </ol>
+        </div>
+
+
+
 
     </div>
-  </div>
-</header>
-
-<div id="content">
-  <!-- <div class="container"> -->
-  <!-- <img src="image2.png" class="img-responsive"> -->
-  <!-- </div> -->
-
-  <!-- <div class="container"> -->
-  <!-- <p>Mission</p> -->
-  <!-- <p>Lorem Ipsum</p> -->
-  <!-- </div> -->
-
-  <!-- stop the carousel from cycling , data-interval="false" -->
-  <div id='carousel-custom' class='carousel slide' data-ride='carousel' data-interval="false" >
-      <div class='carousel-outer'>
-          <!-- Wrapper for slides -->
-          <div class='carousel-inner'>
-              <div class='item'>
-                    <img src='image2.png' alt='' class="full-width" />
-                    <div class="carousel-caption">
-                        <div class="col-md-4 col-md-offset-8 text-left image-slider">
-                            <h4 class="one-line">TELOS 2016 spring seminar</h4>
-                            <h2><span class="one-line" >Education's Digital Future:</span>
-                                <span class="one-line" >Equity by Design</span></h2>
-                            <a href="#" class="image-slider-url">Go to ALPHAwebsite</a>
-                            <style>
-                            </style>
-                        </div>
-                    </div>
-              </div>
-              <div class='item active'>
-                    <img src='image2.png' alt='' class="full-width" />
-                    <div class="carousel-caption">
-                        <div class="col-md-4 col-md-offset-8 text-left image-slider">
-                            <h4 class="one-line">TELOS 2016 spring seminar</h4>
-                            <h2><span class="one-line" >Education's Digital Future:</span>
-                                <span class="one-line" >Equity by Design</span></h2>
-                            <a href="#" class="image-slider-url">Go to BRAVOwebsite</a>
-                            <style>
-                            </style>
-                        </div>
-                    </div>
-              </div>
-              <div class='item'>
-                    <img src='image2.png' alt='' class="full-width" />
-                    <div class="carousel-caption">
-                        <div class="col-md-4 col-md-offset-8 text-left image-slider">
-                            <h4 class="one-line">TELOS 2016 spring seminar</h4>
-                            <h2><span class="one-line" >Education's Digital Future:</span>
-                                <span class="one-line" >Equity by Design</span></h2>
-                            <a href="#" class="image-slider-url">Go to CHARLIEwebsite</a>
-                            <style>
-                            </style>
-                        </div>
-                    </div>
-              </div>
-              <div class='item'>
-                    <img src='image2.png' alt='' class="full-width" />
-                    <div class="carousel-caption">
-                        <div class="col-md-4 col-md-offset-8 text-left image-slider">
-                            <h4 class="one-line">TELOS 2016 spring seminar</h4>
-                            <h2><span class="one-line" >Education's Digital Future:</span>
-                                <span class="one-line" >Equity by Design</span></h2>
-                            <a href="#" class="image-slider-url">Go to DELTAwebsite</a>
-                            <style>
-                            </style>
-                        </div>
-                    </div>
-              </div>
-          </div>
-      </div>
-
-      <!-- Indicators -->
-      <ol class='carousel-indicators'>
-          <li data-target='#carousel-custom' data-slide-to='0'></li>
-          <li data-target='#carousel-custom' data-slide-to='1' class='active'></li>
-          <li data-target='#carousel-custom' data-slide-to='2'></li>
-          <li data-target='#carousel-custom' data-slide-to='3'></li>
-      </ol>
-  </div>
 
 
-
-
-</div>
-
-
-<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.js'></script>
-<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.3/jquery.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/js/bootstrap.js'></script>
 </body>
+
 </html>
 
 <!-- <img src='http://placekitten.com/g/1120/400&text=slide4' alt='' /> -->
