@@ -270,37 +270,44 @@
       <!-- https://stackoverflow.com/questions/26618821/bootstrap-navbar-centered-in-footer -->
       <div class="wrap">
         <ul class="nav navbar-nav social">
-          <li><a href="#">FB</a></li>
-          <li><a href="#">Li</a></li>
-          <li><a href="#">TW</a></li>
-          <li><a href="#">You</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Who we are</a></li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="#">Contacts</a></li>
         </ul>
       </div>
           </footer>
     <style>
-      footer{
-      <!-- position: fixed; -->
-      width: 100%;
-      background: gray;
-      height: 100px;
-      bottom: 0;
-      z-index: 6;
+      footer {
+          background: gray;
+          height: 90px;
+          /* bottom: 0; */
       }
-      footer .wrap{
-      margin: 10px auto;
-
-      }
-      .social {
-      width: 250px;
-      float: none;
-      margin: 0 auto;
+      footer div ul li {
+          top: 10px;
+          font-size: 16px;
       }
 
+      footer div ul li a {
+          color: white;
+          background: gray;
+      }
+     footer .nav  li  a:hover, footer .nav  li  a:focus {
+         color: red;
+         text-decoration: none;
+         background-color: gray;
+     }
+      
+     .social {
+         width: 450px;
+         float: none;
+         margin: 0 auto;
+     }
+      
       @media (min-width: 260px) {
-      .navbar-nav > li {
-      float: left;
-      }
-      }
+          .navbar-nav > li {
+              float: left;
+          }      }
       </style>
 
 
