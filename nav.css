@@ -517,8 +517,6 @@ opacity: .5;
 	
 }
 
-
-
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
 	header#site-header.subbrand #primary-nav ul.navbar-nav>li>a {
@@ -528,115 +526,8 @@ opacity: .5;
 		padding: 15px 0;
 		margin: 0 15px;
 	}
-	header#site-header #primary-nav ul.dropdown-menu .yamm-content .subnav a {
-
-	}
-	body.navbar-absolute #content {
-		padding-top: 129px;
-	}
-	header#site-header #tools-nav {
-		right: 0;
-	}
-	header#site-header #audience-nav {
-		top: -42px;
-	}
-	header#site-header h1.logo,
-	header#site-header a.navbar-brand {
-		max-width: 200px;
-		padding: 0;
-		margin-left: -9px;
-		margin-top: 18px;
-	}
-	header#site-header #tools-nav ul.navbar-nav li a.btn {
-		font-size: 12px;
-	}
 	
-	header#site-header #primary-nav {
-		height: 120px;
-		padding-top: 37px;
-	}
-	header#site-header #primary-nav ul.navbar-nav>li>a {
-		font-size: 18px;
-		line-height: 21px;
-		margin: 17px 25px;
-		padding: 0;
-	}
-		
-	header#site-header #primary-nav ul>li:last-child>a {
-		margin-right: 0;
-	} 
-	header#site-header .navbar-nav>li>a {
-
-	}
-	
-	header#site-header .dropdown .dropdown-menu {
-		margin-top: -33px;
-	}
-	header#site-header #audience-nav ul .dropdown-menu li {
-		width: auto;
-		float: left;
-	}
-	header#site-header #audience-nav ul .dropdown-menu li a {
-		padding: 13px 15px 15px;
-		color: #fff;
-	}
-	header#site-header #audience-nav ul .dropdown-menu li a:hover,
-	header#site-header #audience-nav ul .dropdown-menu li a:focus {
-		background: transparent;
-		color: #003262;
-		text-decoration: none;
-	}
-	
-	header#site-header #audience-nav ul li.dropdown:hover .dropdown-menu {
-		display: block;
-	}
-	header#site-header #audience-nav ul li .dropdown-toggle {
-		
-	}
-	
-	header#site-header.light .navbar-nav>li>a {
-		color: #333;
-	}
-	header#site-header.light #audience-nav ul .dropdown-menu li a {
-		
-	}
-	
-	header#site-header.dark #primary-nav .navbar-nav>li>a {
-		color: #fff;
-	}
-	header#site-header.dark #audience-nav ul .dropdown-menu li a {
-		
-	}
 }
 
 /* Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-	header#site-header #tools-nav {
-	}
-	header#site-header #tools-nav ul.navbar-nav li {
-		padding-left: 15px;
-		padding-right: 15px;
-	}
-	header#site-header #audience-nav {
-	}
-	header#site-header h1.logo, 
-	header#site-header a.navbar-brand {
-		max-width: 240px;
-		padding: 0;
-		margin-left: -9px;
-		margin-top: 12px;
-	}
-	header#site-header #primary-nav {
-
-	}
-	header#site-header #primary-nav ul.navbar-nav>li>a {
-		font-size: 21px;
-		line-height: 26px;
-		padding: 0;
-	}
-	header#site-header #audience-nav ul .dropdown-menu li a {
-		padding: 13px 15px 15px;
-		color: #fff;
-	}
-}
 
