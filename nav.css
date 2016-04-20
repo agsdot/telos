@@ -166,94 +166,94 @@ div.navbar-header h1 {
 		color: #C0CAD3;
 		border-bottom-color: #C0CAD3;
 	}
-	header#site-header.subbrand h1.logo {
-		max-width: 180px;
-		margin-left: -3px;
-		margin-top: 20px;
-	}
-	header#site-header.subbrand h2 {
-		padding-top: 15px;
+	/* header#site-header.subbrand h1.logo { */
+	/* 	max-width: 180px; */
+	/* 	margin-left: -3px; */
+	/* 	margin-top: 20px; */
+	/* } */
+	/* header#site-header.subbrand h2 { */
+	/* 	padding-top: 15px; */
 
-	}
-	header#site-header.subbrand h2 a {
-		font-size: 35px;
-		font-weight: 300;
-	}
+	/* } */
+	/* header#site-header.subbrand h2 a { */
+	/* 	font-size: 35px; */
+	/* 	font-weight: 300; */
+	/* } */
 	
-	body.about header#site-header #main-nav li#about>a,
-	body.admissions header#site-header #main-nav li#admissions>a,
-	body.academics header#site-header #main-nav li#academics>a,
-	body.research header#site-header #main-nav li#research>a,
-	body.campus-life header#site-header #main-nav li#campus-life>a {
-		border-bottom-color: #C0CAD3;
-		color: #003262;
-	}
-	body.about header#site-header #main-nav li#about>a:hover,
-	body.admissions header#site-header #main-nav li#admissions>a:hover,
-	body.academics header#site-header #main-nav li#academics>a:hover,
-	body.research header#site-header #main-nav li#research>a:hover,
-	body.campus-life header#site-header #main-nav li#campus-life>a:hover,
-	body.about header#site-header #main-nav li#about>a:focus,
-	body.admissions header#site-header #main-nav li#admissions>a:focus,
-	body.academics header#site-header #main-nav li#academics>a:focus,
-	body.research header#site-header #main-nav li#research>a:focus,
-	body.campus-life header#site-header #main-nav li#campus-life>a:focus {
+	/* body.about header#site-header #main-nav li#about>a, */
+	/* body.admissions header#site-header #main-nav li#admissions>a, */
+	/* body.academics header#site-header #main-nav li#academics>a, */
+	/* body.research header#site-header #main-nav li#research>a, */
+	/* body.campus-life header#site-header #main-nav li#campus-life>a { */
+	/* 	border-bottom-color: #C0CAD3; */
+	/* 	color: #003262; */
+	/* } */
+	/* body.about header#site-header #main-nav li#about>a:hover, */
+	/* body.admissions header#site-header #main-nav li#admissions>a:hover, */
+	/* body.academics header#site-header #main-nav li#academics>a:hover, */
+	/* body.research header#site-header #main-nav li#research>a:hover, */
+	/* body.campus-life header#site-header #main-nav li#campus-life>a:hover, */
+	/* body.about header#site-header #main-nav li#about>a:focus, */
+	/* body.admissions header#site-header #main-nav li#admissions>a:focus, */
+	/* body.academics header#site-header #main-nav li#academics>a:focus, */
+	/* body.research header#site-header #main-nav li#research>a:focus, */
+	/* body.campus-life header#site-header #main-nav li#campus-life>a:focus { */
 		
-	}
-	header#site-header ul.navbar-nav li a .caret {
-		display: inline-block;
-	}
+	/* } */
+	/* header#site-header ul.navbar-nav li a .caret { */
+	/* 	display: inline-block; */
+	/* } */
 	header#site-header .navbar-form {
 		padding: 0;
 		margin: 5px 0 5px 15px;
 	}
-	header#site-header #meta-nav {
-		display: block;
-	}
-	header#site-header #tools-nav {
-		padding: 0;
-		position: absolute;
-		top: -42px;
-		left: 0;
-		width: 100%;
-	}
-	header#site-header #tools-nav ul.navbar-nav li {
-		width: auto;
-	}
-	header#site-header #tools-nav ul.navbar-nav li a.btn {
-		font-size: 12px;
-		padding: 11px 0;
-		border: none;
-		font-weight: 600;
-		background: none;
-		-webkit-transition: color .2s ease-in-out;
-		-moz-transition: color .2s ease-in-out;
-		-ms-transition: color .2s ease-in-out;
-		-o-transition: color .2s ease-in-out;
-		transition: color .2s ease-in-out;
-	}
-	header#site-header #tools-nav ul.navbar-nav li a.btn:hover,
-	header#site-header #tools-nav ul.navbar-nav li a.btn:focus {
-		color: #FDB515;
-	}
-	header#site-header #tools-nav ul.navbar-nav li a i {
+	/* header#site-header #meta-nav { */
+	/* 	display: block; */
+	/* } */
+	/* header#site-header #tools-nav { */
+	/* 	padding: 0; */
+	/* 	position: absolute; */
+	/* 	top: -42px; */
+	/* 	left: 0; */
+	/* 	width: 100%; */
+	/* } */
+	/* header#site-header #tools-nav ul.navbar-nav li { */
+	/* 	width: auto; */
+	/* } */
+	/* header#site-header #tools-nav ul.navbar-nav li a.btn { */
+	/* 	font-size: 12px; */
+	/* 	padding: 11px 0; */
+	/* 	border: none; */
+	/* 	font-weight: 600; */
+	/* 	background: none; */
+	/* 	-webkit-transition: color .2s ease-in-out; */
+	/* 	-moz-transition: color .2s ease-in-out; */
+	/* 	-ms-transition: color .2s ease-in-out; */
+	/* 	-o-transition: color .2s ease-in-out; */
+	/* 	transition: color .2s ease-in-out; */
+	/* } */
+	/* header#site-header #tools-nav ul.navbar-nav li a.btn:hover, */
+	/* header#site-header #tools-nav ul.navbar-nav li a.btn:focus { */
+	/* 	color: #FDB515; */
+	/* } */
+	/* header#site-header #tools-nav ul.navbar-nav li a i { */
 	
-	}
-	header#site-header.subbrand #tools-nav ul.navbar-nav li a.meta-nav-item {
-		font-size: 16px;
-		color: #fff;
-		padding: 12px;
-	}
-	header#site-header #meta-nav .brand {
-		width: 82px;
-		padding: 4px 0;
-	}
-	.nav>li>a:hover, .nav>li>a:focus {
-		text-decoration: none;
-		border-bottom-color: #C0CAD3;
-		background-color: transparent;
-	}
-	header#site-header h1.logo,
+	/* } */
+	/* header#site-header.subbrand #tools-nav ul.navbar-nav li a.meta-nav-item { */
+	/* 	font-size: 16px; */
+	/* 	color: #fff; */
+	/* 	padding: 12px; */
+	/* } */
+	/* header#site-header #meta-nav .brand { */
+	/* 	width: 82px; */
+	/* 	padding: 4px 0; */
+	/* } */
+	/* .nav>li>a:hover, .nav>li>a:focus { */
+	/* 	text-decoration: none; */
+	/* 	border-bottom-color: #C0CAD3; */
+	/* 	background-color: transparent; */
+	/* } */
+	/* header#site-header h1.logo, */
 	/* header#site-header a.navbar-brand { */
 	/* 	font-weight: 500; */
 	/* 	font-size: 40px; */
