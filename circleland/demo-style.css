@@ -1,4 +1,6 @@
 /* WebDesignAndSuch.com Demo style */
+/* view-source:66.147.244.181/~webdeth4/posts/responsive-css-circles/ */
+/* http://webdesignandsuch.com/make-responsive-perfect-circles-with-css/ */
 
 body {
     font-family: 'Raleway', sans-serif;
@@ -37,16 +39,18 @@ section {
 /* circles */
 
 .responsive-circle {
-    font-size: 80px;
-    font-weight: 700;
+    font-size: 20px;
+    /* font-weight: 700; */
     margin: 0 auto 20px;
-    width: 80%;
+    width: 50%;
+    vertical-align: center;
+    text-align: left;
 }
 
 @media only screen and (max-width: 768px) {
     .responsive-circle {
         width: 100%;
-        font-size: 70px;
+        font-size: 20px;
     }
 }
 
@@ -64,9 +68,10 @@ section {
     color: white;
     float: left;
     line-height: 1em;
-    margin-top: -0.5em;
+    margin-top: -1em;
+    margin-left: 1em;
     padding-top: 50%;
-    text-align: center;
+    text-align: left;
     width: 100%;
 }
 
@@ -99,12 +104,14 @@ section {
 /* } */
 
 .color2-circle::after {
-    background: #008C9E;
+    /* background: #008C9E; */
+    background:rgb(35,51,51);
 }
 
-/* .color3-circle::after { */
-/*     background: #00B4CC; */
-/* } */
+.color3-circle::after {
+    /* background: #00B4CC; */
+    background: rgb(148,0,38);
+}
 
 /* section.section1 { */
 /*     background: #fff */
