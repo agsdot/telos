@@ -110,7 +110,9 @@ section {
 
 .color3-circle::after {
     /* background: #00B4CC; */
-    background: rgb(148,0,38);
+    background: rgba(148,0,38,0.8);
+    /* opacity: 0.8; */
+    
 }
 
 /* section.section1 { */
