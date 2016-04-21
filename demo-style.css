@@ -39,7 +39,7 @@ body {
 /*     color: #fff */
 /* } */
 
-section {
+section.section-circle {
     /* padding: 70px 70px 50px 70px */
     padding: 70px 50px;
 }
