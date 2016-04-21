@@ -127,3 +127,68 @@ div.navbar-header h1 {
 	}
 
 }
+
+/* developer tools analysis */
+header#site-header.subbrand .two-line-logo .b-wordmark {
+    width: 130px;
+    height: 130px;
+    margin: 15px 0px 10px 0px;
+    background-image: url("telos_logo.png"), none;
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+@media screen and (max-width: 767px) {
+    header#site-header.subbrand .two-line-logo .b-wordmark {
+        display: none;
+    }
+    header#site-header.subbrand .two-line-logo .dept-title {
+        padding: 0 0 25px 25px;
+    }
+}
+
+header#site-header.subbrand .b-wordmark,
+header#site-header.subbrand .dept-title {
+    display: inline-block;
+    font-size: 40px;
+    line-height: 40px;
+}
+/* ----- */
+/* for the text right of the logo */
+
+header#site-header.subbrand .two-line-logo .dept-title {
+    font-size: 30px;
+    line-height: 30px;
+}
+
+header#site-header.subbrand .dept-title {
+    font-family: 'Droid Sans', sans-serif;
+    /* color: #c4820e; */
+    vertical-align: top;
+    margin-top: 35px;
+}
+/* ----- */
+/* get rid of colored top border */
+
+header#site-header {
+    border-top: 0px;
+}
+
+body {
+    background-color: white;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.btn-default {
+    color: #333;
+    background-color: transparent;
+    border-color: #ccc;
+}
+
+div form#navbar-search.navbar-form {
+    margin-top: 20px;
+}
+
+header#site-header .navbar.navbar-default {
+    background-color: rgb(245, 181, 74);
+}
