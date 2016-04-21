@@ -8,90 +8,107 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="">
     <meta name="author" content="">
-
     <title>3 Col Portfolio - Start Bootstrap Template</title>
-
-    <!-- Bootstrap Core CSS -->
-    <!-- <link href="css/bootstrap.min.css" rel="stylesheet"> -->
-
     <!-- https://blackrockdigital.github.io/startbootstrap-3-col-portfolio/ -->
     <!-- <link href="https://blackrockdigital.github.io/startbootstrap-3-col-portfolio/css/bootstrap.min.css" rel="stylesheet"> -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.css" rel="stylesheet" />
     <!-- Custom CSS -->
 
     <style>
-        body {
-            padding-top: 70px;
-            /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
-        }
-
-        .portfolio-item {
-            margin-bottom: 25px;
-        }
-
-        footer {
-            margin: 50px 0;
-        }
-
         .one-line {
             clear: both;
             display: inline-block;
             overflow: hidden;
             white-space: nowrap;
         }
+
+        #six-grid {
+            padding-top: 70px;
+        }
+
+        /* check this one out.... */
+        /* .portfolio-item { */
+        #six-grid .row {
+            margin-bottom: 25px;
+        }
+
     </style>
 
 </head>
 
 <body>
 
-    <!-- Page Content -->
     <div class="container" id="six-grid">
 
-        <!-- Projects Row -->
-        <!-- <div class="row" style="margin-bottom:0px;"> -->
         <div class="row">
-            <div class="col-md-4 portfolio-item">
+            <div class="col-md-4 portfolio-item top-left">
+                <style>
+                 #six-grid .top-left img {
+                     padding-right: 18px;
+
+                 }
+                 #six-grid .top-left .highlights-header {
+                     font-size:18px;
+                     font-weight:500;
+                 }
+                 #six-grid .top-left a{
+                     font-size:16px;
+                 }
+                </style>
                 <h3>
                     Highlights
                 </h3>
                 <hr>
                 <div>
-                    <img class="img-responsive" src="highlights.jpg" alt="" align="left" style="padding-right:17px;">
-                    <p>TELOS Spring Seminar</p>
-                    <p>An open seminar focused on key issues at the intersection of technology, equity and learning.
-                        <p><a href="#">Projects</a>
+                    <img class="img-responsive" src="highlights.jpg" alt="" align="left">
+                    <span class="highlights-header">TELOS Spring Seminar</span>
+                    <p>An open seminar focused on key issues at the intersection of technology, equity and learning.</p>
+                    <p><a href="#">Projects</a></p>
                 </div>
             </div>
-            <div class="col-md-4 portfolio-item">
+            <div class="col-md-4 portfolio-item top-middle">
                 <h3>
                     Events
                 </h3>
                 <hr>
-                <div class="row" style="margin-bottom:20px">
-                    <div class="col-md-3">
-                        <strong>
+                <style>
+                 #six-grid .top-middle .calendar-date {
+                     font-size: 18px;
+                     font-weight: bold;
+                 }
+                 #six-grid .top-middle .calendar-day {
+                     font-size: 20px;
+                 }
+                 #six-grid .top-middle > div.row {
+                     margin-bottom:20px;
+                 }
+                 #six-grid .top-middle .events-header {
+                     font-size:16px;
+                     font-weight:500;
+                 }
+                </style>
+                <div class="row">
+                    <div class="col-md-3 calendar-date">
                         April <br>
-                        11
-                            </strong>
+                        <span class="calendar-day">11</span>
                     </div>
                     <div class="col-md-8">
-                        TELOS Spring Seminar<br> Ceras 101
+                        <span class="events-header">TELOS Spring Seminar</span><br>
+                        CERAS 101
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-md-3">
-                        <strong>
+                    <div class="col-md-3 calendar-date">
                         December <br>
-                        26
-                            </strong>
+                        <span class="calendar-day">26</span>
                     </div>
                     <div class="col-md-8">
-                        Spring 2016 TELOS RFP<br> Ceras 101
+                        <span class="events-header">Spring 2016 TELOS RFP</span><br>
+                        CERAS 101
                     </div>
                 </div>
             </div>
-            <div class="col-md-4 portfolio-item">
+            <div class="col-md-4 portfolio-item top-right">
                 <h3>
                     Stay in Touch
                 </h3>
@@ -113,6 +130,7 @@
                         background-color: rgb(241, 243, 236);
                         /* color: rgb(255, 238, 231); */
                         padding: 25px 0 40px 25px;
+                        /* jonathan */
                         top: -20px;
                         /* text-align: center; */
                     }
@@ -153,6 +171,7 @@
                 <p>An open seminar focused on key issues at the intersection of technology, equity and learning.
                     <p><a href="#">Publications</a>
             </div>
+
             <div class="col-md-4 portfolio-item">
                 <hr>
                 <button type="button" class="btn btn-danger">Event Calendar</button>
@@ -227,3 +246,11 @@
 </body>
 
 </html>
+
+<!-- todo -->
+
+<!-- consolidate css, try to extra out inline css -->
+<!-- make sure css is specific to this sixgrid page -->
+<!-- make sure that color schemes and font weight are good -->
+<!-- extract out css -->
+<!-- make sure tags are even and balance out and match up -->
