@@ -38,7 +38,7 @@ footer .nav li a:focus {
 }
 
 @media (min-width: 260px) {
-    .navbar-nav > li {
+    footer .navbar-nav > li {
         float: left;
     }
 }

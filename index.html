@@ -15,6 +15,8 @@
 
     <!-- styling for the search form and the navigation menu -->
     <link rel="stylesheet" href="nav.css">
+    <link rel="stylesheet" href="http://rac.berkeley.edu/lib/css/nav.css">
+    <link rel="stylesheet" href="site.css">
 
     <!-- styling for the bootstrap image slider -->
     <link rel="stylesheet" href="bootstrap-image-slider.css">
@@ -38,7 +40,9 @@
     <header id="site-header" class="subbrand">
         <!-- <header> -->
         <div class="navbar navbar-default navbar-static-top yamm">
-            <div class="container">
+            <div class="container"> <a href="http://berkeley.edu" class="home-link">TELOS</a>
+
+                <!-- search form input -->
                 <div>
                     <form id="navbar-search" class="navbar-form navbar-right" method="get" action="/search/index.html" role="search">
                         <div class="form-group">
@@ -47,32 +51,37 @@
                         <button class="btn btn-default" value="Search" aria-label="search" type="submit"> <span class="fa fa-search search"></span> </button>
                     </form>
                 </div>
+
                 <div class="navbar-header two-line-logo">
                     <!-- <h1> <span class="b-wordmark" aria-hidden="true"></span> <span class="dept-title two-line-logo">Research Administration<br> -->
                     <!-- and Compliance</span> </h1> -->
                     <h1> <span class="b-wordmark" aria-hidden="true"></span>
-              <span class="dept-title two-line-logo">Technology for Equity in<br>
-                  Learning Opportunities
-                  <br>
-                  <small>at Stanford University</small>
-              </span>
-        </h1>
+                        <span class="dept-title two-line-logo">Technology for Equity in<br>
+                            Learning Opportunities
+                            <br>
+                            <small>at Stanford University</small>
+                        </span>
+                    </h1>
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav">
+                        <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span>
+                        <span class="icon-bar"></span> <span class="icon-bar"></span>
+                    </button>
                 </div>
 
                 <div class="collapse navbar-collapse" id="main-nav">
                     <nav id="primary-nav" role="navigation">
                         <ul class="nav navbar-nav">
 
-                            <li id="about">
+                            <li class="dropdown yamm-fw" id="about">
                                 <a href="#" class="dropdown-toggle" role="button" aria-expanded="false">About</a>
                             </li>
-                            <li class="dropdown yamm-fw" id="ACUC">
+                            <li class="dropdown yamm-fw" id="who-we-are">
                                 <a href="http://acuc.berkeley.edu" class="dropdown-toggle" role="button" aria-expanded="false">Who we are</a>
                             </li>
-                            <li class="dropdown yamm-fw" id="COI">
+                            <li class="dropdown yamm-fw" id="projects">
                                 <a href="http://researchcoi.berkeley.edu" class="dropdown-toggle" role="button" aria-expanded="false">Projects</a>
                             </li>
-                            <li class="dropdown yamm-fw" id="CPHS">
+                            <li class="dropdown yamm-fw" id="contacts">
                                 <a href="http://cphs.berkeley.edu" class="dropdown-toggle" role="button" aria-expanded="false">Contacts</a>
                             </li>
                             <style>
