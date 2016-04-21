@@ -23,7 +23,8 @@ header#site-header .container .home-link {
     header#site-header {
         border-top-width: 42px;
     }
-    header#site-header input {
+    /*the form needs to display none not just the input*/
+    header#site-header form {
         display:none;
     }
     header#site-header.subbrand .navbar-toggle {
@@ -35,4 +36,3 @@ header#site-header .container .home-link {
         background: none repeat scroll 0 0 #fff;
     }
 }
-
