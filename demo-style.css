@@ -5,12 +5,12 @@
 body {
     font-family: 'Raleway', sans-serif;
 }
-a {
+.section-circle a {
     color: rgb(144, 16, 41);
     text-decoration: underline;
 }
 
-a:hover, a:focus {
+.section-circle a:hover, .section-circle a:focus {
     color: rgb(144, 16, 41);
     text-decoration: underline;
 }
@@ -124,7 +124,7 @@ section {
     
 }
 
-/* section.section1 { */
+/* section.circle-section { */
 /*     background: #fff */
 /* } */
 
