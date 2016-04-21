@@ -12,7 +12,6 @@
     <!-- https://blackrockdigital.github.io/startbootstrap-3-col-portfolio/ -->
     <!-- <link href="https://blackrockdigital.github.io/startbootstrap-3-col-portfolio/css/bootstrap.min.css" rel="stylesheet"> -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.css" rel="stylesheet" />
-    <!-- Custom CSS -->
 
     <style>
         .one-line {
@@ -25,13 +24,17 @@
         #six-grid {
             padding-top: 70px;
         }
-
         /* check this one out.... */
         /* .portfolio-item { */
+
         #six-grid .row {
             margin-bottom: 25px;
         }
 
+        #six-grid .row.bottom-row {
+            position: relative;
+            top: -55px;
+        }
     </style>
 
 </head>
@@ -40,21 +43,22 @@
 
     <div class="container" id="six-grid">
 
-        <div class="row">
+        <div class="row top-row">
             <div class="col-md-4 portfolio-item top-left">
                 <style>
-                 #six-grid .top-left img {
-                     padding-right: 18px;
+                    #six-grid .top-left img {
+                        padding-right: 18px;
+                    }
 
-                 }
-                 #six-grid .top-left a,
-                 #six-grid .bottom-left a{
-                     font-size:16px;
-                 }
-                 #six-grid .highlights-header {
-                     font-size:18px;
-                     font-weight:500;
-                 }
+                    #six-grid .top-left a,
+                    #six-grid .bottom-left a {
+                        font-size: 16px;
+                    }
+
+                    #six-grid .highlights-header {
+                        font-size: 18px;
+                        font-weight: 500;
+                    }
                 </style>
                 <h3>
                     Highlights
@@ -73,20 +77,23 @@
                 </h3>
                 <hr>
                 <style>
-                 #six-grid .top-middle .calendar-date {
-                     font-size: 18px;
-                     font-weight: bold;
-                 }
-                 #six-grid .top-middle .calendar-day {
-                     font-size: 20px;
-                 }
-                 #six-grid .top-middle > div.row {
-                     margin-bottom:20px;
-                 }
-                 #six-grid .top-middle .events-header {
-                     font-size:16px;
-                     font-weight:500;
-                 }
+                    #six-grid .top-middle .calendar-date {
+                        font-size: 18px;
+                        font-weight: bold;
+                    }
+
+                    #six-grid .top-middle .calendar-day {
+                        font-size: 20px;
+                    }
+
+                    #six-grid .top-middle > div.row {
+                        margin-bottom: 20px;
+                    }
+
+                    #six-grid .top-middle .events-header {
+                        font-size: 16px;
+                        font-weight: 500;
+                    }
                 </style>
                 <div class="row">
                     <div class="col-md-3 calendar-date">
@@ -94,8 +101,7 @@
                         <span class="calendar-day">11</span>
                     </div>
                     <div class="col-md-8">
-                        <span class="events-header">TELOS Spring Seminar</span><br>
-                        CERAS 101
+                        <span class="events-header">TELOS Spring Seminar</span><br> CERAS 101
                     </div>
                 </div>
                 <div class="row">
@@ -104,8 +110,7 @@
                         <span class="calendar-day">26</span>
                     </div>
                     <div class="col-md-8">
-                        <span class="events-header">Spring 2016 TELOS RFP</span><br>
-                        CERAS 101
+                        <span class="events-header">Spring 2016 TELOS RFP</span><br> CERAS 101
                     </div>
                 </div>
             </div>
@@ -114,7 +119,7 @@
                     Stay in Touch
                 </h3>
                 <hr>
-                <div class="col-md-12 right">
+                <div class="col-md-12 top-right-text">
                     <span class="one-line">Sign up now for our TELOS mailing list to learn</span>
                     <span class="one-line">more about funding opportunities, new projects</span>
                     <span class="one-line">and partnerships, and related events.</span>
@@ -124,24 +129,20 @@
                             <button class="btn btn-warning" type="button">Subscribe</button>
                         </span>
                     </div>
-                    <!-- /input-group -->
                 </div>
                 <style>
-                    .right {
+                    .top-right-text {
                         background-color: rgb(241, 243, 236);
-                        /* color: rgb(255, 238, 231); */
                         padding: 25px 0 40px 25px;
-                        /* jonathan */
                         top: -20px;
-                        /* text-align: center; */
                     }
 
-                    .right input,
-                    .right button {
+                    .top-right-text input,
+                    .top-right-text button {
                         border-radius: 0;
                     }
 
-                    .right .input-group {
+                    .top-right-text .input-group {
                         margin-top: 18px;
                     }
 
@@ -163,17 +164,10 @@
             </div>
         </div>
 
-        <!-- Projects Row -->
-        <div class="row" style="position:relative;top:-55px;">
-            <!-- <div class="row"> -->
+        <div class="row bottom-row">
             <div class="col-md-4 portfolio-item bottom-left">
                 <hr width="50%">
-                <!-- <p>TELOS Spring Seminar</p> -->
-                <!-- <p>An open seminar focused on key issues at the intersection of technology, equity and learning. -->
-                <!-- <p><a href="#">Publications</a> -->
- 
                 <div>
-                    <!-- <img class="img-responsive" src="highlights.jpg" alt="" align="left"> -->
                     <span class="highlights-header">TELOS Spring Seminar</span>
                     <p><span class="one-line">An open seminar focused on key issues at the intersection</span> of technology, equity and learning.</p>
                     <p><a href="#">Publications</a></p>
@@ -184,10 +178,6 @@
                 <hr>
                 <button type="button" class="btn btn-danger">Event Calendar</button>
                 <style>
-                    #six-grid .btn {
-                        /* border-radius:0; */
-                    }
-
                     #six-grid .btn-danger,
                     #six-grid .btn-danger:link,
                     #six-grid .btn-danger:visited {
@@ -205,17 +195,12 @@
                 </style>
             </div>
             <div class="col-md-4 portfolio-item bottom-right">
-                <!-- <a href="#"> -->
-                <!-- <img class="img-responsive" src="http://placehold.it/700x400" alt=""> -->
-                <!-- </a> -->
-                <!-- <hr> -->
                 <div>&nbsp</div>
-                <!-- <div>&nbsp</div> -->
                 <div class="bottom-right-text">
                     <div>If you feel you can't find what you're looking for</div>
                     <h3>
-                    <a href="#">Contact Us</a>
-                </h3>
+                        <a href="#">Contact Us</a>
+                    </h3>
                 </div>
             </div>
 
@@ -224,7 +209,10 @@
                     background-color: rgb(241, 243, 236);
                     padding: 20px 0 40px 25px;
                 }
+             #six-grid .bottom-right, #six-grid .top-right {
+                 font-weight: 600;
 
+             }
             </style>
             <style>
                 /* link colors */
@@ -242,7 +230,6 @@
             </style>
         </div>
 
-        <hr>
 
 
     </div>
