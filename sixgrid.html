@@ -15,21 +15,23 @@
     <!-- <link href="css/bootstrap.min.css" rel="stylesheet"> -->
 
     <!-- https://blackrockdigital.github.io/startbootstrap-3-col-portfolio/ -->
-    <link href="https://blackrockdigital.github.io/startbootstrap-3-col-portfolio/css/bootstrap.min.css" rel="stylesheet">
+    <!-- <link href="https://blackrockdigital.github.io/startbootstrap-3-col-portfolio/css/bootstrap.min.css" rel="stylesheet"> -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.6/css/bootstrap.css" rel="stylesheet" />
     <!-- Custom CSS -->
 
     <style>
-    body {
-    padding-top: 70px; /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
-    }
-
-    .portfolio-item {
-    margin-bottom: 25px;
-    }
-
-    footer {
-    margin: 50px 0;
-    }
+        body {
+            padding-top: 70px;
+            /* Required padding for .navbar-fixed-top. Remove if using .navbar-static-top. Change if height of navigation changes. */
+        }
+        
+        .portfolio-item {
+            margin-bottom: 25px;
+        }
+        
+        footer {
+            margin: 50px 0;
+        }
     </style>
 
 </head>
@@ -37,34 +39,33 @@
 <body>
 
     <!-- Page Content -->
-    <div class="container">
+    <div class="container" id="six-grid">
 
         <!-- Projects Row -->
         <div class="row">
             <div class="col-md-4 portfolio-item">
-                <a href="#">
-                    <img class="img-responsive" src="http://placehold.it/700x400" alt="">
-                </a>
                 <h3>
-                    <a href="#">Project Name</a>
+                    Highlights
                 </h3>
+                <hr>
+                <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p> -->
+                <div>
+                    <img class="img-responsive" src="highlights.jpg" alt="" align="left" style="padding-right:7px;">
+                    <p>TELOS Spring Seminar</p>
+                    <p>An open seminar focused on key issues at the intersection of technology, equity and learning.
+                        <p><a href="#">Projects</a>
+                </div>
+            </div>
+            <div class="col-md-4 portfolio-item">
+                <h3>
+                    Events
+                </h3>
+                <hr>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
             </div>
             <div class="col-md-4 portfolio-item">
-                <a href="#">
-                    <img class="img-responsive" src="http://placehold.it/700x400" alt="">
-                </a>
                 <h3>
-                    <a href="#">Project Name</a>
-                </h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
-            </div>
-            <div class="col-md-4 portfolio-item">
-                <a href="#">
-                    <img class="img-responsive" src="http://placehold.it/700x400" alt="">
-                </a>
-                <h3>
-                    <a href="#">Project Name</a>
+                    Stay in Touch
                 </h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
             </div>
@@ -74,27 +75,40 @@
         <!-- Projects Row -->
         <div class="row">
             <div class="col-md-4 portfolio-item">
-                <a href="#">
-                    <img class="img-responsive" src="http://placehold.it/700x400" alt="">
-                </a>
-                <h3>
-                    <a href="#">Project Name</a>
-                </h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+                <hr>
+                <p>TELOS Spring Seminar</p>
+                <p>An open seminar focused on key issues at the intersection of technology, equity and learning.
+                    <p><a href="#">Publications</a>
             </div>
             <div class="col-md-4 portfolio-item">
-                <a href="#">
-                    <img class="img-responsive" src="http://placehold.it/700x400" alt="">
-                </a>
-                <h3>
-                    <a href="#">Project Name</a>
-                </h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+                <hr>
+                <button type="button" class="btn btn-danger">Event Calendar</button>
+                <style>
+                    #six-grid .btn {
+                        /* border-radius:0; */
+                    }
+                    
+                    #six-grid .btn-danger,
+                    #six-grid .btn-danger:link,
+                    #six-grid .btn-danger:visited {
+                        background-color: transparent;
+                        border-radius: 0;
+                        color: rgb(145, 13, 42);
+                        border: 2px solid rgb(145, 13, 42);
+                    }
+                    
+                    #six-grid .btn-danger:active,
+                    #six-grid .btn-danger:hover {
+                        background-color: rgb(145, 13, 42);
+                        color: #fff
+                    }
+                </style>
             </div>
             <div class="col-md-4 portfolio-item">
-                <a href="#">
-                    <img class="img-responsive" src="http://placehold.it/700x400" alt="">
-                </a>
+                <!-- <a href="#"> -->
+                <!-- <img class="img-responsive" src="http://placehold.it/700x400" alt=""> -->
+                <!-- </a> -->
+                <hr>
                 <h3>
                     <a href="#">Project Name</a>
                 </h3>
