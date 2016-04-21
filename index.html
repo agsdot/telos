@@ -34,19 +34,22 @@
     <link rel="stylesheet" href="sixgrid.css">
 
     <style>
-        /* ----- */
-        /* for the berkeley logo */
-
         header#site-header.subbrand .two-line-logo .b-wordmark {
             width: 130px;
             height: 130px;
             margin: 15px 0px 10px 0px;
-            /* background-image: url("berkeley_wordmark_blue_175x70.svg"), none; */
             background-image: url("telos_logo.png"), none;
             background-repeat: no-repeat;
             background-position: left center;
-            /* border-right: solid 1px #003056; */
-            /* padding-right: 10px; */
+        }
+
+        @media screen and (max-width: 767px) {
+            header#site-header.subbrand .two-line-logo .b-wordmark {
+                display: none;
+            }
+            header#site-header.subbrand .two-line-logo .dept-title {
+                padding: 0 0 25px 25px;
+            }
         }
 
         header#site-header.subbrand .b-wordmark,
@@ -64,14 +67,13 @@
         }
 
         header#site-header.subbrand .dept-title {
-            /* font-family: 'UCBerkeleyOSDemi', 'Minion Pro', 'Times New Roman', times, serif; */
             font-family: 'Droid Sans', sans-serif;
             /* color: #c4820e; */
             vertical-align: top;
             margin-top: 35px;
         }
         /* ----- */
-        /* get rid of blue top border */
+        /* get rid of colored top border */
 
         header#site-header {
             border-top: 0px;
@@ -81,8 +83,6 @@
             background-color: white;
             font-family: 'Open Sans', sans-serif;
         }
-        /* ----- */
-        /* for the search bar */
 
         .btn-default {
             color: #333;
@@ -93,37 +93,8 @@
         div form#navbar-search.navbar-form {
             margin-top: 20px;
         }
-        /* ----- */
-        /* for the search bar magnifying glass */
-        /*
-    header#site-header .navbar-form .btn {
-	  display: none;
-	  border: none;
-	  position: absolute;
-	  right: 0;
-	  top: 0;
-	  -webkit-transition: color .2s ease-in-out;
-	  -moz-transition: color .2s ease-in-out;
-	  -ms-transition: color .2s ease-in-out;
-	  -o-transition: color .2s ease-in-out;
-	  transition: color .2s ease-in-out;
-	  padding: 7px 9px;
-    }
-    header#site-header .navbar-form .btn:hover,
-    header#site-header .navbar-form .btn:focus {
-    color: #00509C;
-    background-color: transparent;
-    border: none;
-    }
-    header#site-header .navbar-form .btn {
-	  display: inline;
-    }
-
-  */
-        /* ----- */
 
         header#site-header .navbar.navbar-default {
-            /* background-color: #c4820e; */
             background-color: rgb(245, 181, 74);
         }
     </style>
