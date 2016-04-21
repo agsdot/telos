@@ -20,12 +20,12 @@
             overflow: hidden;
             white-space: nowrap;
         }
+        /* arbitrary styling, to remove later  */
 
         #six-grid {
             padding-top: 70px;
         }
-        /* check this one out.... */
-        /* .portfolio-item { */
+        /* styling for the six grid rows */
 
         #six-grid .row {
             margin-bottom: 25px;
@@ -46,9 +46,12 @@
         <div class="row top-row">
             <div class="col-md-4 portfolio-item top-left">
                 <style>
+                    /* style the top left grid section for the image and padding */
+
                     #six-grid .top-left img {
                         padding-right: 18px;
                     }
+                    /* style the links and header for the highlights grid, top left and bottom left */
 
                     #six-grid .top-left a,
                     #six-grid .bottom-left a {
@@ -77,6 +80,8 @@
                 </h3>
                 <hr>
                 <style>
+                    /* style the events calendar section */
+
                     #six-grid .top-middle .calendar-date {
                         font-size: 18px;
                         font-weight: bold;
@@ -131,6 +136,41 @@
                     </div>
                 </div>
                 <style>
+                    /* style background and spacing for the top right grid */
+
+                    #six-grid .top-right .top-right-text {
+                        background-color: rgb(241, 243, 236);
+                        padding: 25px 0 40px 25px;
+                        top: -20px;
+                    }
+                    /* style email and subscribe form */
+
+                    #six-grid .top-right .top-right-text input,
+                    #six-grid .top-right .top-right-text button {
+                        border-radius: 0;
+                    }
+
+                    #six-grid .top-right .top-right-text .input-group {
+                        margin-top: 18px;
+                    }
+                    /* style subscribe button for email form */
+
+                    #six-grid .btn-warning,
+                    #six-grid .btn-warning:link,
+                    #six-grid .btn-warning:visited {
+                        background-color: rgb(230, 156, 23);
+                        border-radius: 0;
+                        color: rgb(51, 52, 51);
+                        border: 1px solid rgb(230, 156, 23);
+                    }
+
+                    #six-grid .btn-warning:active,
+                    #six-grid .btn-warning:hover {
+                        background-color: rgb(230, 156, 23);
+                        color: rgb(88, 88, 88);
+                    }
+                    /* style the italic placeholder for the input */
+
                     #six-grid .top-right .top-right-text input::-webkit-input-placeholder {
                         font-size: 14px;
                         font-style: italic;
@@ -156,36 +196,6 @@
                         font-style: italic;
                         font-weight: 400;
                     }
-
-                    #six-grid .top-right .top-right-text {
-                        background-color: rgb(241, 243, 236);
-                        padding: 25px 0 40px 25px;
-                        top: -20px;
-                    }
-
-                    #six-grid .top-right .top-right-text input,
-                    #six-grid .top-right .top-right-text button {
-                        border-radius: 0;
-                    }
-
-                    #six-grid .top-right .top-right-text .input-group {
-                        margin-top: 18px;
-                    }
-
-                    #six-grid .btn-warning,
-                    #six-grid .btn-warning:link,
-                    #six-grid .btn-warning:visited {
-                        background-color: rgb(230, 156, 23);
-                        border-radius: 0;
-                        color: rgb(51, 52, 51);
-                        border: 1px solid rgb(230, 156, 23);
-                    }
-
-                    #six-grid .btn-warning:active,
-                    #six-grid .btn-warning:hover {
-                        background-color: rgb(230, 156, 23);
-                        color: rgb(88, 88, 88);
-                    }
                 </style>
             </div>
         </div>
@@ -204,6 +214,8 @@
                 <hr>
                 <button type="button" class="btn btn-danger">Event Calendar</button>
                 <style>
+                    /* style event calendar button */
+
                     #six-grid .btn-danger,
                     #six-grid .btn-danger:link,
                     #six-grid .btn-danger:visited {
@@ -231,18 +243,21 @@
             </div>
 
             <style>
-                .bottom-right .bottom-right-text {
+                /* style bottom right grid */
+
+                #six-grid .bottom-right .bottom-right-text {
                     background-color: rgb(241, 243, 236);
                     padding: 20px 0 40px 25px;
                 }
+                /* style font weight for top right grid and bottom right grid */
 
-                #six-grid .bottom-right .bottom-right-text,
-                #six-grid .top-right .top-right-text {
+                #six-grid .top-right .top-right-text,
+                #six-grid .bottom-right .bottom-right-text {
                     font-weight: 600;
                 }
             </style>
             <style>
-                /* link colors */
+                /* a href link colors */
 
                 #six-grid a {
                     color: rgb(144, 16, 41);
