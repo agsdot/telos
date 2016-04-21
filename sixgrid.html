@@ -131,18 +131,44 @@
                     </div>
                 </div>
                 <style>
-                    .top-right-text {
+                    #six-grid .top-right .top-right-text input::-webkit-input-placeholder {
+                        font-size: 14px;
+                        font-style: italic;
+                        font-weight: 400;
+                    }
+
+                    #six-grid .top-right .top-right-text input:-moz-placeholder {
+                        /* older Firefox*/
+                        font-size: 14px;
+                        font-style: italic;
+                        font-weight: 400;
+                    }
+
+                    #six-grid .top-right .top-right-text input::-moz-placeholder {
+                        /* Firefox 19+ */
+                        font-size: 14px;
+                        font-style: italic;
+                        font-weight: 400;
+                    }
+
+                    #six-grid .top-right .top-right-text input:-ms-input-placeholder {
+                        font-size: 14px;
+                        font-style: italic;
+                        font-weight: 400;
+                    }
+
+                    #six-grid .top-right .top-right-text {
                         background-color: rgb(241, 243, 236);
                         padding: 25px 0 40px 25px;
                         top: -20px;
                     }
 
-                    .top-right-text input,
-                    .top-right-text button {
+                    #six-grid .top-right .top-right-text input,
+                    #six-grid .top-right .top-right-text button {
                         border-radius: 0;
                     }
 
-                    .top-right-text .input-group {
+                    #six-grid .top-right .top-right-text .input-group {
                         margin-top: 18px;
                     }
 
@@ -209,10 +235,11 @@
                     background-color: rgb(241, 243, 236);
                     padding: 20px 0 40px 25px;
                 }
-             #six-grid .bottom-right, #six-grid .top-right {
-                 font-weight: 600;
 
-             }
+                #six-grid .bottom-right .bottom-right-text,
+                #six-grid .top-right .top-right-text {
+                    font-weight: 600;
+                }
             </style>
             <style>
                 /* link colors */
