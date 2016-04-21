@@ -32,6 +32,12 @@
         footer {
             margin: 50px 0;
         }
+.one-line {
+    clear: both;
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+}
     </style>
 
 </head>
@@ -42,15 +48,15 @@
     <div class="container" id="six-grid">
 
         <!-- Projects Row -->
+        <!-- <div class="row" style="margin-bottom:0px;"> -->
         <div class="row">
             <div class="col-md-4 portfolio-item">
                 <h3>
                     Highlights
                 </h3>
                 <hr>
-                <!-- <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p> -->
                 <div>
-                    <img class="img-responsive" src="highlights.jpg" alt="" align="left" style="padding-right:7px;">
+                    <img class="img-responsive" src="highlights.jpg" alt="" align="left" style="padding-right:17px;">
                     <p>TELOS Spring Seminar</p>
                     <p>An open seminar focused on key issues at the intersection of technology, equity and learning.
                         <p><a href="#">Projects</a>
@@ -61,19 +67,62 @@
                     Events
                 </h3>
                 <hr>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+                <div class="row" style="margin-bottom:20px">
+                    <div class="col-md-3">
+                        April <br>
+                        11
+                    </div>
+                    <div class="col-md-8">
+                        TELOS Spring Seminar<br>
+                        Ceras 101
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3">
+                        December <br>
+                        26
+                    </div>
+                    <div class="col-md-8">
+                        Spring 2016 TELOS RFP<br>
+                        Ceras 101
+                    </div>
+                </div>
             </div>
             <div class="col-md-4 portfolio-item">
                 <h3>
                     Stay in Touch
                 </h3>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+                <hr>
+                <div class="col-md-12 right">
+                    <span class="one-line">Sign up now for our TELOS mailing list to learn</span>
+                    <span class="one-line">more about funding opportunities, new projects</span>
+                    <span class="one-line">and partnerships, and related events.</span>
+                    <div class="input-group col-xs-10">
+                        <input type="text" class="form-control" placeholder="email">
+                        <span class="input-group-btn">
+                            <button class="btn btn-warning" type="button">Subscribe</button>
+                        </span>
+                        </div><!-- /input-group -->
+                </div>
+                <style>
+                 .right {
+                     background-color: rgb(145, 13, 42);
+                     color: rgb(255, 238, 231);
+                     padding: 25px 0 140px 25px;
+                     top:-20px;
+                     /* text-align: center; */
+                 }
+                 .right input, .right button {
+                     border-radius:0;
+                 }
+
+                </style>
             </div>
         </div>
-        <!-- /.row -->
 
         <!-- Projects Row -->
-        <div class="row">
+        <div class="row" style="position:relative;top:-55px;">
+            <!-- <div class="row"> -->
             <div class="col-md-4 portfolio-item">
                 <hr>
                 <p>TELOS Spring Seminar</p>
