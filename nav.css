@@ -43,9 +43,9 @@ div.navbar-header h1 {
 	-webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
 	box-shadow: inset 0 0px 1px rgba(0,0,0,0.2);
 	height: 32px;
-	
+
 	}
-	header#site-header #primary-nav ul.navbar-nav>li>a:hover, 
+	header#site-header #primary-nav ul.navbar-nav>li>a:hover,
 	header#site-header #primary-nav ul.navbar-nav>li>a:focus,
 	footer#site-footer .nav>li>a:hover,
 	footer#site-footer .nav>li>a:focus {
@@ -53,7 +53,7 @@ div.navbar-header h1 {
 		color: #829db5;
 		border-bottom-color: #C0CAD3;
 	}
-	header#site-header.dark #primary-nav ul.navbar-nav>li>a:hover, 
+	header#site-header.dark #primary-nav ul.navbar-nav>li>a:hover,
 	header#site-header.dark #primary-nav ul.navbar-nav>li>a:focus,
 	footer#site-footer.dark .nav>li>a:hover,
 	footer#site-footer.dark .nav>li>a:focus {
@@ -80,7 +80,7 @@ div.navbar-header h1 {
 	header#site-header .navbar-form .btn {
 		display: inline;
 	}
-	
+
 	/* Subbrand */
 	header#site-header.subbrand {
 
@@ -125,5 +125,5 @@ div.navbar-header h1 {
 		padding: 15px 0;
 		margin: 0 15px;
 	}
-	
+
 }

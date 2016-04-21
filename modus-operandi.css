@@ -1,0 +1,66 @@
+/* rgb(yellow ); */
+/* rgb(231,155,25); */
+/* rgb(yellow text); */
+/* rgb(255,248,183); */
+/* rgb(yellow text hover); */
+/* rgb(219,213,157); */
+
+/* rgb(grey); */
+/* rgb(220,216,204); */
+/* rgb(grey text); */
+/* rgb(51,52,51); */
+/* rgb(grey text hover); */
+/* rgb(88,88,88); */
+
+/* rgb(maroon); */
+/* rgb(145,13,42); */
+/* rgb(maroon text); */
+/* rgb(255,238,231); */
+/* rgb(maroon text hover); */
+/* rgb(204,190,185); */
+
+.section-modus-operandi .col-md-4 {
+    padding: 2px 0 30px 20px;
+}
+
+.section-modus-operandi .left {
+    background-color: rgb(231, 155, 25);
+    color: rgb(255, 248, 183);
+}
+
+.section-modus-operandi .left a {
+    color: rgb(255, 248, 199);
+}
+
+.section-modus-operandi .left a:hover {
+    text-decoration: none;
+    color: rgb(219, 213, 157);
+}
+
+.section-modus-operandi .middle {
+    background-color: rgb(220, 216, 204);
+    color: rgb(51, 52, 51);
+}
+
+.section-modus-operandi .middle a {
+    color: rgb(51, 52, 51);
+}
+
+.section-modus-operandi .middle a:hover {
+    text-decoration: none;
+    color: rgb(88, 88, 88);
+}
+
+.section-modus-operandi .right {
+    background-color: rgb(145, 13, 42);
+    color: rgb(255, 238, 231);
+}
+
+.section-modus-operandi .right a {
+    color: rgb(255, 238, 231);
+}
+
+.section-modus-operandi .right a:hover {
+    text-decoration: none;
+    color: rgb(204, 190, 185);
+}
