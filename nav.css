@@ -212,7 +212,9 @@ header#site-header .navbar.navbar-default {
 header#site-header {
     position: relative;
     z-index: 999;
-    border-top: 4px solid #003262;
+    /* border-top: 4px solid #003262; */
+    border-top: 4px solid rgb(145,13,42);
+     /* rgb(245, 181, 74); */
     -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .2);
     box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .2);
 }
@@ -377,7 +379,10 @@ body.takeover header#site-header .navbar-toggle .icon-bar {
 header#site-header .secondary-nav-collapse {}
 
 header#site-header .navbar-nav>li>a:not(.btn) {
-    color: #003262;
+    /* color: #003262; */
+    /* modified */
+    color: rgb(255,238,231);
+    background-color: rgb(145,13,42);
     -webkit-transition: color .2s ease-in-out;
     -moz-transition: color .2s ease-in-out;
     -ms-transition: color .2s ease-in-out;
