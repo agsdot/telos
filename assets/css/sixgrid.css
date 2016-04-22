@@ -26,7 +26,7 @@
 
 #six-grid .top-middle .calendar-date {
     font-size: 18px;
-    font-weight: bold;
+    font-weight: 500;
 }
 
 #six-grid .top-middle .calendar-day {
@@ -73,33 +73,6 @@
 #six-grid .btn-warning:hover {
     background-color: rgb(230, 156, 23);
     color: rgb(88, 88, 88);
-}
-/* style the italic placeholder for the input */
-
-#six-grid .top-right .top-right-text input::-webkit-input-placeholder {
-    font-size: 14px;
-    font-style: italic;
-    font-weight: 400;
-}
-
-#six-grid .top-right .top-right-text input:-moz-placeholder {
-    /* older Firefox*/
-    font-size: 14px;
-    font-style: italic;
-    font-weight: 400;
-}
-
-#six-grid .top-right .top-right-text input::-moz-placeholder {
-    /* Firefox 19+ */
-    font-size: 14px;
-    font-style: italic;
-    font-weight: 400;
-}
-
-#six-grid .top-right .top-right-text input:-ms-input-placeholder {
-    font-size: 14px;
-    font-style: italic;
-    font-weight: 400;
 }
 /* style event calendar button */
 
