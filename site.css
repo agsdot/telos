@@ -15,7 +15,7 @@ header#site-header .container .home-link {
     /* great link */
     /* tablet, landscape iPad, lo-res laptops ands desktops */
     header#site-header {
-        border-top-width: 2px;
+        border-top-width: 0px;
     }
 }
 
