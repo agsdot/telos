@@ -100,3 +100,12 @@ section.bootstrap-image-slider-section .image-slider .title {
 section.bootstrap-image-slider-section .image-slider a {
     font-size: 18px;
 }
+@media screen and (max-width: 767px) {
+    #carousel-custom {
+        width:90%;
+    }
+    section.bootstrap-image-slider-section .image-slider,
+    section.bootstrap-image-slider-section .image-slider a {
+        color:white;
+    }
+}
