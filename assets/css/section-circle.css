@@ -1,5 +1,9 @@
 /* WebDesignAndSuch.com Demo style */
+
+
 /* view-source:66.147.244.181/~webdeth4/posts/responsive-css-circles/ */
+
+
 /* http://webdesignandsuch.com/make-responsive-perfect-circles-with-css/ */
 
 body {
@@ -64,18 +68,18 @@ section.section-circle {
     }
 }
 
-
 @media (min-width:961px) {
     .section-circle {
-        position:relative;
-        z-index:2;
+        position: relative;
+        z-index: 2;
     }
     .section-circle div.circle-row {
-        position:relative;
-        right:79px;
+        position: relative;
+        right: 79px;
     }
     .section-circle .circle-one .img-circle {
-        position: absolute; right: -8px;
+        position: absolute;
+        right: -8px;
         z-index: -1;
     }
     .section-circle .circle-two {
@@ -83,22 +87,58 @@ section.section-circle {
         right: -8px;
         font-size: 15px;
     }
-
     .section-circle .circle-three {
         position: relative;
         right: -100px;
     }
-
     .section-circle .circle-three .img-circle {
         position: absolute;
         right: 219px;
         z-index: -1;
     }
-
     .section-circle .circle-four {
         position: relative;
         right: 15px;
         font-size: 15px;
     }
+}
 
+/* code to be displayed when screen shrunken half size, still WIP */
+.section-circle {
+    position: relative;
+    z-index: 2;
+}
+
+.section-circle div.circle-row {
+    position: relative;
+    right: 79px;
+}
+
+.section-circle .circle-one .img-circle {
+    position: absolute;
+    right: 18px;
+    z-index: -1;
+}
+
+.section-circle .circle-two {
+    position: relative;
+    right: -8px;
+    font-size: 15px;
+}
+
+.section-circle .circle-three {
+    position: relative;
+    right: -100px;
+}
+
+.section-circle .circle-three .img-circle {
+    position: absolute;
+    right: 319px;
+    z-index: -1;
+}
+
+.section-circle .circle-four {
+    position: relative;
+    right: 15px;
+    font-size: 15px;
 }
