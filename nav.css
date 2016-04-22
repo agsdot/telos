@@ -379,10 +379,23 @@ body.takeover header#site-header .navbar-toggle .icon-bar {
 header#site-header .secondary-nav-collapse {}
 
 header#site-header .navbar-nav>li>a:not(.btn) {
+    /* color: rgb(255,238,231); */
+    /* background-color: rgb(145,13,42); */
+    /* for smallscreens jonathan*/
+}
+header#site-header .navbar-nav>li>a:not(.btn) {
+
+    color: #003262;
     /* color: #003262; */
     /* modified */
-    color: rgb(255,238,231);
-    background-color: rgb(145,13,42);
+    /* color: rgb(255,238,231); */
+    /* background-color: rgb(145,13,42); */
+
+
+    /* color: #003262; */
+    /* modified */
+    /* color: rgb(255,238,231); */
+    /* background-color: rgb(145,13,42); */
     -webkit-transition: color .2s ease-in-out;
     -moz-transition: color .2s ease-in-out;
     -ms-transition: color .2s ease-in-out;
