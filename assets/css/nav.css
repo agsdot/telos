@@ -39,7 +39,7 @@ header#site-header.subbrand .two-line-logo .b-wordmark {
     width: 130px;
     height: 130px;
     margin: 15px 0px 10px 0px;
-    background-image: url("telos_logo.png"), none;
+    background-image: url("../img/telos_logo.png"), none;
     background-repeat: no-repeat;
     background-position: left center;
 }
