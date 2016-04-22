@@ -26,7 +26,7 @@ header#site-header .navbar-form .btn {
 
 header#site-header .navbar-form .btn:hover,
 header#site-header .navbar-form .btn:focus {
-    color: #00509C;
+    color: black;
     background-color: transparent;
     border: none;
 }
@@ -34,11 +34,6 @@ header#site-header .navbar-form .btn:focus {
 div.navbar-header h1 {
     margin-top: 0px;
 }
-
-
-/* Extra small devices (phones, less than 768px) */
-/* No media query since this is the default in Bootstrap */
-/* Small devices (tablets, 768px and up) */
 
 @media (min-width: 768px) {
     .navbar-form .form-control {
@@ -87,7 +82,6 @@ div.navbar-header h1 {
     header#site-header .navbar-form .btn {
         display: inline;
     }
-    /* Subbrand */
     header#site-header.subbrand {}
     header#site-header.subbrand .navbar-header {
         float: none;
@@ -110,17 +104,12 @@ div.navbar-header h1 {
         line-height: 14px;
         margin: 10px 12px;
         padding: 0;
-        /*border-bottom: 2px solid transparent;*/
-        /* color: #555; */
         color: #555;
     }
     header#site-header.subbrand #primary-nav ul.navbar-nav>li:first-child>a {
         margin-left: 0;
     }
 }
-
-
-/* Medium devices (desktops, 992px and up) */
 
 @media (min-width: 992px) {
     header#site-header.subbrand #primary-nav ul.navbar-nav>li>a {
@@ -131,9 +120,6 @@ div.navbar-header h1 {
         margin: 0 15px;
     }
 }
-
-
-/* developer tools analysis */
 
 header#site-header.subbrand .two-line-logo .b-wordmark {
     width: 130px;
@@ -160,27 +146,23 @@ header#site-header.subbrand .dept-title {
     line-height: 40px;
 }
 
-
-/* ----- */
-
-
-/* for the text right of the logo */
-
 header#site-header.subbrand .two-line-logo .dept-title {
     font-size: 30px;
     line-height: 30px;
 }
 
 header#site-header.subbrand .dept-title {
-    /* color: #c4820e; */
     vertical-align: top;
     margin-top: 35px;
 }
 
 header#site-header {
-    border-top: 0px;
+    border-top: 4px solid rgb(145, 13, 42);
+    position: relative;
+    z-index: 999;
+    -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .2);
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .2);
 }
-
 
 .btn-default {
     color: #333;
@@ -196,23 +178,10 @@ header#site-header .navbar.navbar-default {
     background-color: rgb(245, 181, 74);
 }
 
-/* ////joanna/// */
-
-header#site-header {
-    position: relative;
-    z-index: 999;
-    /* border-top: 4px solid #003262; */
-    border-top: 4px solid rgb(145,13,42);
-     /* rgb(245, 181, 74); */
-    -webkit-box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .2);
-    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, .2);
-}
-
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
     background-color: transparent;
 }
-
 
 header#site-header #primary-nav ul.navbar-nav>li>a {
     font-size: 18px;
@@ -222,23 +191,7 @@ header#site-header #primary-nav ul.navbar-nav>li>a {
 }
 
 header#site-header .navbar-nav>li>a:not(.btn) {
-    /* color: rgb(255,238,231); */
-    /* background-color: rgb(145,13,42); */
-    /* for smallscreens jonathan*/
-}
-header#site-header .navbar-nav>li>a:not(.btn) {
-
     color: #003262;
-    /* color: #003262; */
-    /* modified */
-    /* color: rgb(255,238,231); */
-    /* background-color: rgb(145,13,42); */
-
-
-    /* color: #003262; */
-    /* modified */
-    /* color: rgb(255,238,231); */
-    /* background-color: rgb(145,13,42); */
     -webkit-transition: color .2s ease-in-out;
     -moz-transition: color .2s ease-in-out;
     -ms-transition: color .2s ease-in-out;
@@ -246,28 +199,16 @@ header#site-header .navbar-nav>li>a:not(.btn) {
     transition: color .2s ease-in-out;
 }
 
-header#site-header .navbar-form .btn:hover,
-header#site-header .navbar-form .btn:focus {
-    color: black;
-}
-
 header#site-header #primary-nav .navbar-nav {
     margin-bottom: 0;
     margin-top: 0;
 }
-
 
 header#site-header.subbrand .navbar-toggle {
     padding: 15px 10px;
     margin-right: 15px;
     border-color: transparent;
 }
-/* keep above */
-
-
-/* Extra small devices (phones, less than 768px) */
-/* No media query since this is the default in Bootstrap */
-/* Small devices (tablets, 768px and up) */
 
 @media (min-width: 768px) {
     header#site-header #primary-nav ul.navbar-nav>li>a {
@@ -284,7 +225,6 @@ header#site-header.subbrand .navbar-toggle {
         margin: 10px 12px;
         padding: 0;
         border-bottom: 2px solid transparent;
-        /* border-bottom: 2px solid transparent; */
         color: #555;
     }
 }
