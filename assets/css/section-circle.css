@@ -5,62 +5,29 @@
 body {
     font-family: 'Raleway', sans-serif;
 }
+
 .section-circle a {
     color: rgb(144, 16, 41);
     text-decoration: underline;
 }
 
-.section-circle a:hover, .section-circle a:focus {
+.section-circle a:hover,
+.section-circle a:focus {
     color: rgb(144, 16, 41);
     text-decoration: underline;
 }
-/* .top-nav { */
-/*     width: 100%; */
-/*     height: 40px; */
-/*     background: #111; */
-/* } */
-
-/* img.logo { */
-/*     margin-top: 13px; */
-/*     margin-left: 50px */
-/* } */
-
-/* a.article-link, */
-/* a.article-link:visited { */
-/*     display: inline-block; */
-/*     float: right; */
-/*     color: #FF4629; */
-/*     text-decoration: none; */
-/*     margin-right: 50px; */
-/*     margin-top: 10px; */
-/* } */
-
-/* a.article-link:hover { */
-/*     color: #fff */
-/* } */
 
 section.section-circle {
     padding: 50px;
 }
 
-
-/* circles */
-
 .responsive-circle {
     font-size: 20px;
-    /* font-weight: 700; */
     margin: 0 auto 20px;
     width: 45%;
     vertical-align: center;
     text-align: left;
 }
-
-/* @media only screen and (max-width: 768px) { */
-/*     .responsive-circle { */
-/*         width: 100%; */
-/*         font-size: 20px; */
-/*     } */
-/* } */
 
 .responsive-circle::after {
     border-radius: 50%;
@@ -113,12 +80,12 @@ section.section-circle {
 
 .color2-circle::after {
     /* background: #008C9E; */
-    background:rgba(35,51,51,0.9);
+    background: rgba(35, 51, 51, 0.9);
 }
 
 .color3-circle::after {
     /* background: #00B4CC; */
-    background: rgba(148,0,38,0.8);
+    background: rgba(148, 0, 38, 0.8);
     /* opacity: 0.8; */
 
 }
