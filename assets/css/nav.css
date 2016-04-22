@@ -63,6 +63,10 @@ div.navbar-header h1 {
     margin-top: 0px;
 }
 
+header#site-header .two-line-logo small {
+    color: rgb(255,248,183);
+}
+
 header#site-header.subbrand .two-line-logo .b-wordmark {
     width: 130px;
     height: 130px;
@@ -279,9 +283,6 @@ header#site-header .container .home-link {
     /* tablet, landscape iPad, lo-res laptops ands desktops */
     header#site-header {
         border-top-width: 0px;
-    }
-    header#site-header .two-line-logo small {
-        color: rgb(255,248,183);
     }
     header li#TELOS-seminar {
         /* use this instead of pull-right because it should not be pulled right in mobile */
