@@ -63,3 +63,42 @@ section.section-circle {
         padding: 10px 0 20px 95px;
     }
 }
+
+
+@media (min-width:961px) {
+    .section-circle {
+        position:relative;
+        z-index:2;
+    }
+    .section-circle div.circle-row {
+        position:relative;
+        right:79px;
+    }
+    .section-circle .circle-one .img-circle {
+        position: absolute; right: -8px;
+        z-index: -1;
+    }
+    .section-circle .circle-two {
+        position: relative;
+        right: -8px;
+        font-size: 15px;
+    }
+
+    .section-circle .circle-three {
+        position: relative;
+        right: -100px;
+    }
+
+    .section-circle .circle-three .img-circle {
+        position: absolute;
+        right: 219px;
+        z-index: -1;
+    }
+
+    .section-circle .circle-four {
+        position: relative;
+        right: 15px;
+        font-size: 15px;
+    }
+
+}
