@@ -108,4 +108,24 @@ section.bootstrap-image-slider-section .image-slider a {
     section.bootstrap-image-slider-section .image-slider a {
         color:white;
     }
+
+    section.bootstrap-image-slider-section .image-slider .preview {
+        font-size: 14px;
+    }
+
+    section.bootstrap-image-slider-section .image-slider .title {
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    section.bootstrap-image-slider-section .image-slider a {
+        font-size: 14px;
+    }
+
+    .carousel-indicators li,
+    .carousel-indicators li.active,
+    .carousel-indicators li.hover {
+        width: 40px;
+        height: 25px;
+    }
 }
