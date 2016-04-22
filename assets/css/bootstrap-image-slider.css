@@ -41,6 +41,7 @@
 
 a.image-slider-url {
     color: maroon;
+    text-decoration: underline;
 }
 a.image-slider-url.hover {
     color: maroon;

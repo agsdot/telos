@@ -252,6 +252,9 @@ header#site-header .container .home-link {
     header#site-header {
         border-top-width: 0px;
     }
+    header#site-header .two-line-logo small {
+        color: rgb(255,248,183);
+    }
     header li#TELOS-seminar {
         /* use this instead of pull-right because it should not be pulled right in mobile */
         float: right !important;
@@ -264,7 +267,7 @@ header#site-header .container .home-link {
 
 @media (min-width: 992px) {
     header#site-header.subbrand #primary-nav ul.navbar-nav>li>a {
-        font-size: 16px;
+        font-size: 18px;
         line-height: 21px;
         margin: 0;
         padding: 15px 0;
