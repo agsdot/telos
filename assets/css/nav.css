@@ -67,7 +67,7 @@ header#site-header .two-line-logo small {
     color: rgb(255,248,183);
 }
 
-header#site-header.subbrand .two-line-logo .b-wordmark {
+header#site-header .two-line-logo .b-wordmark {
     width: 130px;
     height: 130px;
     margin: 15px 0px 10px 0px;
@@ -76,19 +76,19 @@ header#site-header.subbrand .two-line-logo .b-wordmark {
     background-position: left center;
 }
 
-header#site-header.subbrand .b-wordmark,
-header#site-header.subbrand .dept-title {
+header#site-header .b-wordmark,
+header#site-header .dept-title {
     display: inline-block;
     font-size: 40px;
     line-height: 40px;
 }
 
-header#site-header.subbrand .two-line-logo .dept-title {
+header#site-header .two-line-logo .dept-title {
     font-size: 30px;
     line-height: 30px;
 }
 
-header#site-header.subbrand .dept-title {
+header#site-header .dept-title {
     vertical-align: top;
     margin-top: 35px;
 }
@@ -137,7 +137,7 @@ header#site-header #primary-nav .navbar-nav {
     margin-top: 0;
 }
 
-header#site-header.subbrand .navbar-toggle {
+header#site-header .navbar-toggle {
     padding: 15px 10px;
     margin-right: 15px;
     border-color: transparent;
@@ -155,10 +155,10 @@ header#site-header .container .home-link {
 }
 
 @media screen and (max-width: 767px) {
-    header#site-header.subbrand .two-line-logo .b-wordmark {
+    header#site-header .two-line-logo .b-wordmark {
         display: none;
     }
-    header#site-header.subbrand .two-line-logo .dept-title {
+    header#site-header .two-line-logo .dept-title {
         padding: 0 0 25px 25px;
     }
     header#site-header {
@@ -168,7 +168,7 @@ header#site-header .container .home-link {
     header#site-header form {
         display: none;
     }
-    header#site-header.subbrand .navbar-toggle {
+    header#site-header .navbar-toggle {
         position: absolute;
         right: 0px;
         top: -52px;
@@ -180,7 +180,7 @@ header#site-header .container .home-link {
     header li#TELOS-seminar {
         background-color:rgba(35,52,54,1);
     }
-    header#site-header.subbrand #primary-nav ul.navbar-nav>li#TELOS-seminar>a {
+    header#site-header #primary-nav ul.navbar-nav>li#TELOS-seminar>a {
         color: #fff;
     }
 }
@@ -196,22 +196,6 @@ header#site-header .container .home-link {
         -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.075);
         box-shadow: inset 0 0px 1px rgba(0, 0, 0, 0.2);
         height: 32px;
-    }
-    header#site-header #primary-nav ul.navbar-nav>li>a:hover,
-    header#site-header #primary-nav ul.navbar-nav>li>a:focus,
-    footer#site-footer .nav>li>a:hover,
-    footer#site-footer .nav>li>a:focus {
-        background: transparent;
-        color: #829db5;
-        border-bottom-color: #C0CAD3;
-    }
-    header#site-header.dark #primary-nav ul.navbar-nav>li>a:hover,
-    header#site-header.dark #primary-nav ul.navbar-nav>li>a:focus,
-    footer#site-footer.dark .nav>li>a:hover,
-    footer#site-footer.dark .nav>li>a:focus {
-        background: transparent;
-        color: #C0CAD3;
-        border-bottom-color: #C0CAD3;
     }
     header#site-header .navbar-form {
         padding: 0;
@@ -230,11 +214,11 @@ header#site-header .container .home-link {
     header#site-header .navbar-form .btn {
         display: inline;
     }
-    header#site-header.subbrand {}
-    header#site-header.subbrand .navbar-header {
+    header#site-header {}
+    header#site-header .navbar-header {
         float: none;
     }
-    header#site-header.subbrand #primary-nav {
+    header#site-header #primary-nav {
         display: block;
         width: 100%;
         height: auto;
@@ -244,17 +228,17 @@ header#site-header .container .home-link {
         margin-top: 0;
         padding-top: 0;
     }
-    header#site-header.subbrand #primary-nav .navbar-nav {
+    header#site-header #primary-nav .navbar-nav {
         float: none;
     }
-    header#site-header.subbrand #primary-nav ul.navbar-nav>li>a {
+    header#site-header #primary-nav ul.navbar-nav>li>a {
         font-size: 14px;
         line-height: 14px;
         margin: 10px 12px;
         padding: 0;
         color: #555;
     }
-    header#site-header.subbrand #primary-nav ul.navbar-nav>li:first-child>a {
+    header#site-header #primary-nav ul.navbar-nav>li:first-child>a {
         margin-left: 0;
     }
     header#site-header #primary-nav ul.navbar-nav>li>a {
@@ -265,7 +249,7 @@ header#site-header .container .home-link {
         border-bottom: 2px solid transparent;
         color: #555;
     }
-    header#site-header.subbrand #primary-nav ul.navbar-nav>li>a {
+    header#site-header #primary-nav ul.navbar-nav>li>a {
         font-size: 14px;
         line-height: 14px;
         margin: 10px 12px;
@@ -287,13 +271,13 @@ header#site-header .container .home-link {
         float: right !important;
         background-color:rgba(35,52,54,1);
     }
-    header#site-header.subbrand #primary-nav ul.navbar-nav>li#TELOS-seminar>a {
+    header#site-header #primary-nav ul.navbar-nav>li#TELOS-seminar>a {
         color: rgb(163, 183,187);
     }
 }
 
 @media (min-width: 992px) {
-    header#site-header.subbrand #primary-nav ul.navbar-nav>li>a {
+    header#site-header #primary-nav ul.navbar-nav>li>a {
         font-size: 18px;
         line-height: 21px;
         margin: 0;
