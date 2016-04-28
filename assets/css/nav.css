@@ -1,6 +1,6 @@
 header#site-header .navbar-form {
     padding: 10px 15px;
-    margin-top: 0;
+    margin: 0;
     position: relative;
     box-shadow: none;
 }
@@ -11,11 +11,6 @@ header#site-header .navbar-form .btn {
     position: absolute;
     right: 0;
     top: 0;
-    -webkit-transition: color .2s ease-in-out;
-    -moz-transition: color .2s ease-in-out;
-    -ms-transition: color .2s ease-in-out;
-    -o-transition: color .2s ease-in-out;
-    transition: color .2s ease-in-out;
     padding: 7px 9px;
 }
 
@@ -122,7 +117,7 @@ header#site-header .container .home-link {
     z-index: 999;
 }
 
-header#site-header form {
+header#site-header form#navbar-search {
     display: none;
 }
 
@@ -199,8 +194,11 @@ header#site-header #primary-nav ul.navbar-nav>li#TELOS-seminar>a {
     header#site-header #primary-nav ul.navbar-nav>li#TELOS-seminar>a {
         color: rgb(163, 183, 187);
     }
-    /*the form needs to display none not just the input*/
-    header#site-header form {
+    header#site-header form#navbar-search-mobile {
+        display: none;
+    }
+    header#site-header form#navbar-search {
         display: inline;
     }
+
 }
