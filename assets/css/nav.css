@@ -114,11 +114,6 @@ header#site-header .container .home-link {
     color: #FFF;
     padding: 12px 12px 12px 0px;
     font-weight: 600;
-    z-index: 999;
-}
-
-header#site-header form#navbar-search {
-    display: none;
 }
 
 header#site-header .navbar-toggle .icon-bar {
@@ -131,6 +126,10 @@ header li#TELOS-seminar {
 
 header#site-header #primary-nav ul.navbar-nav>li#TELOS-seminar>a {
     color: #fff;
+}
+
+header#site-header form#navbar-search {
+    display: none;
 }
 
 @media (min-width:769px) {
