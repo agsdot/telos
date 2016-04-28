@@ -143,7 +143,7 @@ header#site-header #primary-nav ul.navbar-nav>li#TELOS-seminar>a {
     color: #fff;
 }
 
-@media (min-width:961px) {
+@media (min-width:769px) {
     .navbar-form .form-control {
         display: inline-block;
         width: auto;
