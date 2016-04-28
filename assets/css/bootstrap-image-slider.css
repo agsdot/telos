@@ -1,12 +1,10 @@
-/* https://stackoverflow.com/questions/17704539/css-getting-text-in-one-line-rather-than-two */
-
 .bootstrap-image-slider-section {
     margin: 40px 0;
 }
 
 #carousel-custom {
+    width: 90%;
     margin: 20px auto;
-    width: 1120px;
 }
 
 #carousel-custom .carousel-outer {
@@ -36,19 +34,15 @@
     height: 100%;
 }
 
-/* --- */
-
-a.image-slider-url {
-    color: maroon;
+a.image-slider-url,
+a.image-slider-url:focus,
+a.image-slider-url:hover {
+    color: white;
     text-decoration: underline;
 }
 
-a.image-slider-url.hover {
-    color: maroon;
-}
-
 .image-slider {
-    color: rgba(35, 52, 54, 1)
+    color: white;
 }
 
 /* from a codepen on giving numbers to the bootstrap dots then I adapted it */
@@ -56,21 +50,21 @@ a.image-slider-url.hover {
 .carousel-indicators li {
     text-indent: 0;
     margin: 0 2px;
-    width: 60px;
-    height: 10px;
     border: none;
     border-radius: 0;
     line-height: 30px;
     color: #fff;
     background-color: rgb(220, 217, 208);
+    width: 40px;
+    height: 25px;
 }
 
 .carousel-indicators li.active,
 .carousel-indicators li.hover {
     margin: 0 2px;
-    width: 60px;
-    height: 10px;
     background-color: rgb(144, 16, 41);
+    width: 40px;
+    height: 25px;
 }
 
 .carousel-indicators {
@@ -81,44 +75,44 @@ a.image-slider-url.hover {
     margin-bottom: 50px;
 }
 
+section.bootstrap-image-slider-section .image-slider a,
 section.bootstrap-image-slider-section .image-slider .preview {
-    font-size: 18px;
+    font-size: 14px;
 }
 
 section.bootstrap-image-slider-section .image-slider .title {
-    font-size: 28px;
+    font-size: 20px;
     font-weight: 600;
 }
 
-section.bootstrap-image-slider-section .image-slider a {
-    font-size: 18px;
-}
-@media screen and (max-width: 767px) {
+@media (min-width:769px) {
+    /* desktop */
     #carousel-custom {
-        width:90%;
+        width: 100%;
     }
-    section.bootstrap-image-slider-section .image-slider,
-    section.bootstrap-image-slider-section .image-slider a {
-        color:white;
-    }
-
+    section.bootstrap-image-slider-section .image-slider a,
     section.bootstrap-image-slider-section .image-slider .preview {
-        font-size: 14px;
+        font-size: 18px;
     }
-
     section.bootstrap-image-slider-section .image-slider .title {
-        font-size: 16px;
+        font-size: 28px;
         font-weight: 600;
     }
-
-    section.bootstrap-image-slider-section .image-slider a {
-        font-size: 14px;
+    .carousel-indicators li {
+        width: 60px;
+        height: 10px;
     }
-
-    .carousel-indicators li,
     .carousel-indicators li.active,
     .carousel-indicators li.hover {
-        width: 40px;
-        height: 25px;
+        width: 60px;
+        height: 10px;
+    }
+    .image-slider {
+        color: rgba(35, 52, 54, 1);
+    }
+    a.image-slider-url,
+    a.image-slider-url:focus,
+    a.image-slider-url:hover {
+        color: maroon;
     }
 }

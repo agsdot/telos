@@ -31,6 +31,7 @@ input:-ms-input-placeholder {
     font-weight: 400;
 }
 
+/* https://stackoverflow.com/questions/17704539/css-getting-text-in-one-line-rather-than-two */
 .one-line {
     clear: both;
     display: inline-block;
