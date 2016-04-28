@@ -93,13 +93,8 @@ header#site-header #primary-nav ul.navbar-nav>li>a {
     border-bottom: 1px solid #eee;
 }
 
-header#site-header .navbar-nav>li>a:not(.btn) {
+header#site-header .navbar-nav>li>a {
     color: #003262;
-    -webkit-transition: color .2s ease-in-out;
-    -moz-transition: color .2s ease-in-out;
-    -ms-transition: color .2s ease-in-out;
-    -o-transition: color .2s ease-in-out;
-    transition: color .2s ease-in-out;
 }
 
 header#site-header #primary-nav .navbar-nav {
@@ -144,6 +139,9 @@ header#site-header #primary-nav ul.navbar-nav>li#TELOS-seminar>a {
 }
 
 @media (min-width:769px) {
+    header#site-header .two-line-logo .b-wordmark {
+        display: inline-block;
+    }
     .navbar-form .form-control {
         display: inline-block;
         width: auto;
@@ -206,5 +204,3 @@ header#site-header #primary-nav ul.navbar-nav>li#TELOS-seminar>a {
         display: inline;
     }
 }
-
-
