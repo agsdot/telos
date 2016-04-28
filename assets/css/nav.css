@@ -1,36 +1,3 @@
-body {
-    background-color: white;
-    font-family: 'Droid Sans', sans-serif;
-}
-
-/* style the italic placeholder for the input */
-
-input::-webkit-input-placeholder {
-    font-size: 14px;
-    font-style: italic;
-    font-weight: 400;
-}
-
-input:-moz-placeholder {
-    /* older Firefox*/
-    font-size: 14px;
-    font-style: italic;
-    font-weight: 400;
-}
-
-input::-moz-placeholder {
-    /* Firefox 19+ */
-    font-size: 14px;
-    font-style: italic;
-    font-weight: 400;
-}
-
-input:-ms-input-placeholder {
-    font-size: 14px;
-    font-style: italic;
-    font-weight: 400;
-}
-
 header#site-header .navbar-form {
     padding: 10px 15px;
     margin-top: 0;
