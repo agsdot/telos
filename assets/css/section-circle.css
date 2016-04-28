@@ -1,14 +1,6 @@
 /* WebDesignAndSuch.com Demo style */
-
-
 /* view-source:66.147.244.181/~webdeth4/posts/responsive-css-circles/ */
-
-
 /* http://webdesignandsuch.com/make-responsive-perfect-circles-with-css/ */
-
-body {
-    font-family: 'Raleway', sans-serif;
-}
 
 .section-circle a {
     color: rgb(144, 16, 41);
@@ -67,8 +59,6 @@ section.section-circle {
         padding: 10px 0 20px 95px;
     }
 }
-
-
 
 /* code to be displayed when screen shrunken half size, still WIP */
 .section-circle {
