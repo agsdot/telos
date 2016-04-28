@@ -241,9 +241,6 @@ header#site-header .container .home-link {
     header#site-header #primary-nav ul.navbar-nav>li#TELOS-seminar>a {
         color: rgb(163, 183,187);
     }
-}
-
-@media (min-width: 992px) {
     header#site-header #primary-nav ul.navbar-nav>li>a {
         font-size: 18px;
         line-height: 21px;
